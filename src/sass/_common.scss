@@ -1,0 +1,15 @@
+.row {
+  margin: auto;
+  width: 100%;
+  max-width: 1288px;
+  padding: 0 15px;
+  position: relative;
+
+  @include mq(1024){
+    padding: 0 20px;
+  }
+}
+
+.m-container{
+  overflow: hidden;
+}

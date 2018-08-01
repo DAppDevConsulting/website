@@ -1,0 +1,33 @@
+.user-preview {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+
+  &__img {
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  &__name {
+    font-size: 18px;
+    line-height: 1.33;
+    font-weight: 600;
+    text-align: left;
+    color: $black-light;
+  }
+
+  @include mq(1024) {
+    &__img{
+      width: 56px;
+      height: 56px;
+    }
+    &__name{
+      font-size: 22px;
+    }
+  }
+}

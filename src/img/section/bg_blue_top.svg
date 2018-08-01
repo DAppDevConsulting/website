@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1360px" height="156px" viewBox="0 0 1360 156" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>top</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1360" height="488" rx="4"></rect>
+        <linearGradient x1="79.7203947%" y1="50%" x2="-13.57667%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#DB2DAA" offset="0%"></stop>
+            <stop stop-color="#FFD500" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="78.4242156%" y1="-6.03474937%" x2="0%" y2="-6.03474937%" id="linearGradient-4">
+            <stop stop-color="#DB2DAA" offset="0%"></stop>
+            <stop stop-color="#FFD500" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="78.4242156%" y1="-6.03474937%" x2="1.15504415%" y2="-6.03474937%" id="linearGradient-5">
+            <stop stop-color="#DB2DAA" offset="0%"></stop>
+            <stop stop-color="#09F0ED" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="home-page_03-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, -1152.000000)">
+        <g id="Group-18" transform="translate(0.000000, 1152.000000)">
+            <g id="Rectangle-16-+-Rectangle-16-Copy-2-+-Rectangle-16-Copy-2-+-Rectangle-16-Copy-3-+-Rectangle-16-Copy-+-Rectangle-16-Copy-3-Mask">
+                <g id="top">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#09F0ED" xlink:href="#path-1"></use>
+                    <rect id="Rectangle-16-Copy-2" fill="url(#linearGradient-3)" opacity="0.116111866" mask="url(#mask-2)" x="-848" y="0" width="1507" height="24" rx="12"></rect>
+                    <rect id="Rectangle-16-Copy-2" fill="url(#linearGradient-4)" opacity="0.0260416667" mask="url(#mask-2)" x="-873" y="52" width="1235" height="24" rx="12"></rect>
+                    <path d="M1098,132 L2197,132 C2203.62742,132 2209,137.372583 2209,144 L2209,144 C2209,150.627417 2203.62742,156 2197,156 L1098,156 C1091.37258,156 1086,150.627417 1086,144 L1086,144 C1086,137.372583 1091.37258,132 1098,132 Z" id="Rectangle-16-Copy-3" fill="url(#linearGradient-5)" opacity="0.413100091" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

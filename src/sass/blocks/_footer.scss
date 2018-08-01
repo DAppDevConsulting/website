@@ -1,0 +1,50 @@
+.m-footer{
+  padding: 32px 0;
+  background-color: #24242b;
+  overflow: hidden;
+
+  &__flex-wrap{
+    &:not(:first-child){
+      margin-top: 24px;
+    }
+  }
+
+  &__logo{
+    max-width: 208px;
+  }
+
+  &__email{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.45;
+    text-decoration: none;
+    color: rgba(#fff, .8);
+    border-bottom: solid 1px rgba(#fff, .15);
+    transition: border $primary-transition;
+
+    &:focus,
+    &:hover {
+      border-color: rgba(#fff, .8);
+    }
+  }
+
+  &__copyrights{
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+    color: #fff;
+  }
+
+  @include mq(1024){
+    &__flex-wrap{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      &:not(:first-child){
+        margin-top: 40px;
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+.contact-form {
+  padding: 24px;
+  background-color: #fff;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+
+  &__heading {
+    margin-bottom: 24px;
+  }
+
+  &__title {
+    color: $black-light;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 1.1;
+    text-align: center;
+  }
+
+  &__form {
+
+  }
+
+  &__row,
+  &__col {
+
+    &:not(:first-child) {
+      margin-top: 16px;
+    }
+  }
+
+  &__btn-submit {
+    width: 100%;
+  }
+
+  @include mq(1024){
+    padding: 59px 64px 64px;
+
+    &__row{
+      &_col-2{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+      }
+    }
+
+    &__title{
+      font-size: 48px;
+    }
+
+    &__row {
+      &:not(:first-child) {
+        margin-top: 24px;
+      }
+    }
+
+    &__col{
+      width: 234px;
+      &:not(:first-child) {
+        margin-top: 0;
+      }
+    }
+  }
+
+}

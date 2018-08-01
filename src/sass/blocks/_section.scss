@@ -1,0 +1,86 @@
+.section{
+  background-color: #fff;
+  padding: 30px 0 35px;
+
+  &__heading{
+    margin-bottom: 25px;
+  }
+
+  &__title{
+    color: $black-light;
+    font-weight: 600;
+    font-size: 38px;
+    text-align: center;
+  }
+
+  &__text{
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  //BEGIN mods
+  &_bg_blue{
+    background-color: $main;
+    background-image: url($img + 'section/bg_blue_top.svg'), url($img + 'section/bg_blue_bottom.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 0, 50% 100%;
+    background-size: 200% auto;
+
+    @include mq(1024){
+      background-size: 101% auto;
+    }
+  }
+
+  &_bg_yellow{
+    background-color: #ffd500;
+    background-image: url($img + 'section/bg_yellow_top.svg'), url($img + 'section/bg_yellow_bottom.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 0, 50% 100%;
+    background-size: 200% auto;
+
+    @include mq(1024){
+      background-size: 101% auto;
+    }
+  }
+
+  &_bg_grey{
+    background-color: #f9f9f9;
+    background-image: url($img + 'section/bg_grey.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 200% auto;
+
+    @include mq(1024){
+      background-size: cover;
+    }
+  }
+
+
+  &_reviews{
+    .section{
+
+      @include mq_max(1023) {
+        &__heading{
+          display: none;
+        }
+      }
+
+    }
+  }
+  //END mods
+
+  @include mq(1024){
+
+    padding: 100px 0;
+
+    &__heading{
+      margin-bottom: 55px;
+    }
+
+    &__title{
+      font-size: 62px;
+    }
+  }
+
+}

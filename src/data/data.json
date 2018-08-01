@@ -1,0 +1,252 @@
+{
+	"sidebar": [
+		{"href": "#main", "name": "Home"},
+		{"href": "#speakers", "name": "Speakers"},
+		{"href": "#program", "name": "Program"},
+		{"href": "#tickets", "name": "Tickets"},
+		{"href": "#faq", "name": "FAQ"},
+		{"href": "#contacts", "name": "Contacts"}
+	],
+
+	"program": {
+		"main": {
+			"beforeLunch": [
+				{
+					"time": "10:20am - 11:00am",
+					"photo": "martin_koppelmann.jpg",
+					"name": "Martin Köppelmann",
+					"position": "CEO Gnosis at ConsenSys",
+					"theme": "Gnosis. The Ethereum Prediction Market"
+				},
+				{
+					"time": "11:20am - 12:00am",
+					"photo": "mike_goldin.jpg",
+					"name": "Mike Goldin",
+					"position": "Lead Developer at ConsenSys",
+					"theme": "TCR - Token-Curated Registry"
+				},
+				{
+					"time": "12:30pm - 1:20pm",
+					"photo": "fabian_vogelsteller.jpg",
+					"name": "Fabian Vogelsteller",
+					"position": "Developer at Ethereum Project",
+					"theme": "ERC: Identity #725"
+				}
+			],
+			"afterLunch": [
+				{
+					"time": "2:00pm - 2:40pm",
+					"photo": "rouven_heck.jpg",
+					"name": "Rouven Heck",
+					"position": "Co-Founder & Project Lead at ConsenSys",
+					"theme": "uPort Digital Identity"
+				},
+				{
+					"time": "2:40pm - 3:20pm",
+					"photo": "kirill_pimenov.jpg",
+					"name": "Kirill Pimenov",
+					"position": "Lead Developer at Parity Technologies",
+					"theme": "Rust. Parity Client EVM. Solaris - Solidity Smart Contracts unit test harness"
+				},
+				{
+					"time": "3:20pm - 4:00pm",
+					"photo": "pawel_bylica.jpg",
+					"name": "Paweł Bylica",
+					"position": "Software Engineer at Ethereum Project",
+					"theme": "EWASM for Smart Contracts. Ethereum Virtual Machine"
+				},
+				{
+					"time": "4:20pm - 5:00pm",
+					"photo": "goncalo_sa.jpg",
+					"name": "Gonçalo Sá",
+					"position": "Lead Developer at ConsenSys Diligence",
+					"theme": "ConsenSys Diligence: Security / Smart Contract Audit"
+				},
+				{
+					"time": "4:20pm - 5:00pm",
+					"photo": "viktor_tron.jpg",
+					"name": "Viktor Trón",
+					"position": "Code Artist at Ethereum Project",
+					"theme": "SWARM. Vision and preview of web3 infrastructure"
+				},
+				{
+					"time": "5:00pm - 5:20pm",
+					"photo": "michael_wuehler.jpg",
+					"name": "Michael Wuehler",
+					"position": "Co-Founder, ConsenSys Mesh, Ethereum Blockchain Professional at ConsenSys",
+					"theme": "INFURA. Blockchain Strategy / Scaling / Infrastructure"
+				},
+				{
+					"time": "6:40pm - 7:00pm",
+					"photo": "pavlo_makarov.jpg",
+					"name": "Pavlo Makarov",
+					"position": "Founder at ĐApp ÐΞV Consulting",
+					"theme": "Ethereum"
+				}
+			]
+		},
+		"second": {
+			"beforeLunch": [
+				{
+					"time": "",
+					"photo": "",
+					"name": "",
+					"position": "",
+					"theme": ""
+				},
+				{
+					"time": "10:20am - 11:00am",
+					"photo": "ihor_zarechnyi.jpg",
+					"name": "Ihor Zarechnyi",
+					"position": "CryptoWallet",
+					"theme": "Cryptocurrency wallets"
+				},
+				{
+					"time": "12:00pm - 12:30pm",
+					"photo": "anton_rudenko.jpg",
+					"name": "Anton Rudenko",
+					"position": "Machine Learning and Mathematical Developer",
+					"theme": "Xalrty Spoke. Reputation AI Systems at ConsenSys"
+				}
+			],
+			"afterLunch": [
+				{
+					"time": "2:00pm - 2:40pm",
+					"photo": "victor_radchenko.jpg",
+					"name": "Victor Radchenko",
+					"position": "Product Owner at ĐApp ÐΞV Consulting",
+					"theme": "uPort Digital Identity"
+				},
+				{
+					"time": "2:40pm - 3:20pm",
+					"photo": "evgeny_medvedev.jpg",
+					"name": "Evgeny Medvedev", 
+					"position": "Blockchain Developer at ĐApp ÐΞV Consulting",
+					"theme": "Light Clients and Sharding"
+				},
+				{
+					"time": "3:30pm - 4:00pm",
+					"photo": "ethereum.jpg",
+					"name": "Dmytrii Kulbaka, Serge Kovbasyuk",
+					"position": "Software Engineers at ĐApp ÐΞV Consulting",
+					"theme": "ĐApp ÐΞV Consulting Club: Workshop"
+				}
+			]
+		}
+	},
+	"speakers": [{
+			"github": "https://github.com/frozeman",
+			"linkedin": "https://www.linkedin.com/in/fabian-vogelsteller-46365042/",
+			"name": "Fabian Vogelsteller",
+			"photo": "fabian_vogelsteller.jpg",
+			"position": "Ethereum Project (Berlin)"
+		}, {
+			"github": "https://github.com/wuehler",
+			"linkedin": "https://www.linkedin.com/in/michael-wuehler-87b148/",
+			"name": "Michael Wuehler",
+			"photo": "michael_wuehler.jpg",
+			"position": "ConsenSys (NYC)"
+		}, {
+			"github": "",
+			"linkedin": "https://www.linkedin.com/in/koeppelmann/",
+			"name": "Martin Köppelmann",
+			"photo": "martin_koppelmann.jpg",
+			"position": "ConsenSys (NYC)"
+		}, {
+			"github": "https://github.com/GNSPS?tab=stars",
+			"linkedin": "https://www.linkedin.com/in/gnsps/",
+			"name": "Gonçalo Sá",
+			"photo": "goncalo_sa.jpg",
+			"position": "ConsenSys (NYC)"
+		}, {
+			"github": "https://github.com/zelig",
+			"linkedin": "https://www.linkedin.com/in/viktortron/",
+			"name": "Viktor Trón",
+			"photo": "viktor_tron.jpg",
+			"position": "Ethereum Project (Amsterdam)"
+		}, {
+			"github": "",
+			"linkedin": "https://www.linkedin.com/in/rouvenheck/",
+			"name": "Rouven Heck",
+			"photo": "rouven_heck.jpg",
+			"position": "ConsenSys (NYC)"		
+		}, {
+			"github": "https://github.com/chfast",
+			"linkedin": "https://www.linkedin.com/in/pawelbylica/",
+			"name": "Pawel Bylica",
+			"photo": "pawel_bylica.jpg",
+			"position": "Ethereum Project (Warsaw)"
+		}, {
+			"github": "https://github.com/skmgoldin",
+			"linkedin": "https://www.linkedin.com/in/skmgoldin/",
+			"name": "Mike Goldin",
+			"photo": "mike_goldin.jpg",
+			"position": "ConsenSys (NYC)"
+		}, {
+			"github": "https://github.com/bjornwgnr",
+			"linkedin": "https://www.linkedin.com/in/bjornwagner/",
+			"name": "Björn Wagner",
+			"photo": "bjorn_wagner.jpg",
+			"position": "Parity Technologies (Berlin)"
+		}, {
+			"github": "https://github.com/lukevr",
+			"linkedin": "https://www.linkedin.com/in/victorradchenko/",
+			"name": "Victor Radchenko",
+			"photo": "victor_radchenko.jpg",
+			"position": "ĐApp ÐΞV Consulting (Ukraine)"
+		}, {
+			"github": "https://github.com/kirushik",
+			"linkedin": "",
+			"name": "Kirill Pimenov",
+			"photo": "kirill_pimenov.jpg",
+			"position": "Parity Technologies (Berlin)"
+		}, {	
+			"github": "https://github.com/zouldapp",
+			"linkedin": "https://www.linkedin.com/in/pavlo-makarov-5b356126/",
+			"name": "Pavlo Makarov",
+			"photo": "pavlo_makarov.jpg",
+			"position": "ĐApp ÐΞV Consulting (Ukraine)"
+		}, {
+			"github": "https://github.com/SomethingWrong",
+			"linkedin": "https://www.linkedin.com/in/dkulbaka/",
+			"name": "Dmytrii Kulbaka",
+			"photo": "dmytrii_kulbaka.jpg",
+			"position": "ĐApp ÐΞV Consulting (Ukraine)"
+		}, {
+			"github": "https://github.com/hodkov",
+			"linkedin": "",
+			"name": "Alexey Hodkov",
+			"photo": "alexey_hodkov.jpg",
+			"position": "ĐApp ÐΞV Consulting (Ukraine)"
+		}, {
+			   "github": "https://github.com/quant77",
+			"linkedin": "",
+			"name": "Anton Rudenko",
+			"photo": "anton_rudenko.jpg",
+			"position": "ĐApp ÐΞV Consulting (Ukraine)"
+		}, {
+			"github": "https://github.com/medvedev1088",
+			"linkedin": "https://www.linkedin.com/in/evgemedvedev/",
+			"name": "Evgeny Medvedev",
+			"photo": "evgeny_medvedev.jpg",
+			"position": "ĐApp ÐΞV Consulting (Ukraine)"
+		}, {
+			"github": "https://github.com/isserge",
+			"linkedin": "https://www.linkedin.com/in/sergii-kovbasiuk-ab4246103/",
+			"name": "Serge Kovbasyuk",
+			"photo": "serge_kovbasyuk.jpg",
+			"position": "ĐApp ÐΞV Consulting (Ukraine)"
+		}, {
+			"github": "https://github.com/nagydani",
+			"linkedin": "https://www.linkedin.com/in/daniel-a-nagy-4b52962/",
+			"name": "Daniel A. Nagy",
+			"photo": "daniel_nagy.jpg",
+			"position": "Ethereum Project (Budapest)"
+		}, {
+			 "github": "https://github.com/zarechnyi",
+			"linkedin": "https://www.linkedin.com/in/ihorzarechnyi/",
+			"name": "Ihor Zarechnyi",
+			"photo": "ihor_zarechnyi.jpg",
+			"position": "CryptoWallet (Ukraine)"
+		}]
+}

@@ -1,0 +1,19 @@
+$fontGotham: $font + 'GothamPro/';
+
+@font-face {
+  font-family: 'Gotham Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gotham Pro'),
+  url($fontGotham + 'regular/GothamProReg.woff') format('woff'),
+  url($fontGotham + 'regular/GothamProReg.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Gotham Pro Bold'),
+  url($fontGotham + 'bold/GothamProBold.woff') format('woff'),
+  url($fontGotham + 'bold/GothamProBold.ttf') format('ttf');
+}

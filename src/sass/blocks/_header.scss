@@ -1,0 +1,372 @@
+.m-header{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  background-color: transparent;
+  overflow: hidden;
+
+  &::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-100%);
+    transition: transform $primary-transition;
+    background-color: $black;
+    z-index: 0;
+
+  }
+
+  &__container{
+    width: 100%;
+    max-width: 1288px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: $header-height;
+  }
+
+  &__logo{
+    display: block;
+    max-width: 240px;
+  }
+
+  &__menu-toggle{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  &__menu-ico{
+    position: relative;
+    width: 31px;
+    height: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 8px;
+
+    span{
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      @include center(y);
+      background-color: $main;
+      border-radius: 4px;
+
+      &::before,
+      &::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $main;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transition: transform $primary_transition;
+        border-radius: 4px;
+      }
+
+      &::before{
+        transform: translateY(-10px);
+      }
+      &::after{
+        transform: translateY(10px);
+      }
+    }
+
+  }
+
+  &__menustate{
+    display: none;
+  }
+
+  &__nav{
+    a{
+      display: inline-block;
+      position: relative;
+      font-weight: 600;
+      color: #fff;
+      text-decoration: none;
+      font-size: 22px;
+      line-height: 1.3;
+
+      &::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 4px;
+        border-radius: 4px;
+        background-color: $main;
+        transform: translateY(13px);
+        opacity: 0;
+        transition-property: transform, opacity;
+        transition: $primary-transition;
+      }
+
+      &:hover,
+      &:focus{
+
+        &::after{
+          transform: translateY(3px);
+          opacity: 1;
+        }
+      }
+    }
+
+    .chacked{
+      a{
+        cursor: default;
+
+        &::after{
+          transform: translateY(3px);
+          opacity: 1;
+        }
+      }
+    }
+
+  }
+
+  @include mq_max(1023){
+
+    &__nav{
+      text-align: center;
+      z-index: 10;
+      position: absolute;
+      top: $header-height;
+      left: 0;
+      overflow: scroll;
+      margin: 0;
+      height: 100%;
+      width: 100%;
+      -webkit-overflow-scrolling: touch;
+      padding: 10px 0 100px;
+      visibility: hidden;
+
+      ul{
+        height: auto;
+        width: 100%;
+        margin: auto;
+      }
+
+      li{
+        width: 100%;
+        text-align: center;
+        opacity: 0;
+        transform: scale(1.1) translate(-14px,-30px);
+
+        &:not(:first-child){
+          margin-top: 30px;
+        }
+
+        &:last-child{
+          transform: none;
+        }
+      }
+
+      a{
+        font-size: 32px;
+      }
+
+    }
+
+    &__nav-lang{
+      /*position: absolute;
+      bottom: 120px;*/
+      padding-top: 20px;
+
+      li{
+        display: inline-block;
+        width: auto;
+        transform: none;
+
+        &:not(:first-child){
+          margin-left: 50px;
+          margin-top: 0;
+        }
+      }
+
+      a{
+        font-size: 18px;
+      }
+    }
+
+    &__logo{
+      width: 57px;
+      overflow: hidden;
+
+      svg{
+        max-width: none;
+        width: 320px;
+      }
+    }
+
+  }
+
+  @include mq(1024){
+    &__container{
+      transform: translate3d(0,0,0);
+    }
+
+    &__nav{
+      padding-left: 50px;
+      flex-shrink: 0;
+
+      li{
+        display: inline-block;
+        padding: 4px 16px;
+        border-radius: 16px;
+        transition: background-color 0.4s ease-out;
+
+        &:not(:first-child){
+          margin-left: 10px;
+        }
+
+        a{
+          font-size: 18px;
+          color: #fff;
+        }
+      }
+
+      .active{
+        background-color: $main;
+
+        a{
+          &::after{
+            display: none;
+          }
+        }
+
+      }
+
+      &-lang{
+        margin-left: 30px;
+
+        li{
+          padding-left: 0;
+          padding-right: 0;
+          &:not(:first-child){
+            margin-left: 25px;
+          }
+        }
+      }
+    }
+  }
+
+
+  //BEGIN mods
+  &_sticky{
+    position: fixed;
+
+    /*@supports (position: sticky) {
+      position: sticky;
+    }*/
+
+    background-color: #fff;
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,0.25);
+    animation: fadeInDown 0.7s;
+
+    .m-header{
+
+      &__container{
+        height: 75px;
+      }
+
+      &__logo{
+        .word-icon{
+          fill: #31313A;
+        }
+        .word-software{
+          fill: #443EC7;
+        }
+      }
+
+      @include mq(1024){
+        &__nav{
+          li{
+            a{
+              color: $black-light;
+            }
+          }
+        }
+      }
+    }
+
+  }
+  //END mods
+
+}
+
+@include mq_max(1023){
+
+  .m-header__menustate:checked ~ .m-header{
+    height: 100%;
+
+    &::before{
+      transform: translateY(0);
+    }
+
+    .m-header{
+
+      &__nav{
+        visibility: visible;
+
+        li{
+          transition: opacity $primary-transition, transform $primary-transition;
+          transition-delay: 200ms, 200ms;
+          transform: none;
+          opacity: 1;
+
+          &:nth-child(2){
+            transition-delay: 250ms, 250ms;
+          }
+
+          &:nth-child(3){
+            transition-delay: 300ms, 300ms;
+          }
+
+          &:nth-child(4){
+            transition-delay: 350ms, 350ms;
+          }
+
+          &:nth-child(5){
+            transition-delay: 400ms, 400ms;
+          }
+
+        }
+      }
+
+      &__menu-ico{
+        span {
+          background-color: transparent;
+        }
+
+        span::before {
+          transform: rotate(-45deg);
+        }
+
+        span::after {
+          transform: rotate(45deg);
+        }
+      }
+
+    }
+
+  }
+
+}
+

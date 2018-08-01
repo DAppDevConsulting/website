@@ -1,0 +1,43 @@
+.modal{
+
+  &_note{
+    .modal{
+
+      &-header{
+        padding: 56px 10px 20px;
+      }
+
+      &-title{
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 1.14;
+        color: $black-light;
+        text-align: left;
+      }
+
+      &-body{
+        padding: 0 15px 40px;
+      }
+
+    }
+
+    @include mq(1024){
+      .modal{
+
+        &-header{
+          padding: 60px 60px 40px;
+        }
+
+        &-title{
+          font-size: 48px;
+        }
+
+        &-body{
+          padding: 0 60px 60px;
+        }
+
+      }
+    }
+  }
+
+}

@@ -1,0 +1,18 @@
+include ../blocks/_all
+include ../helpers/_mixins
+
+doctype html
+html
+	head
+		include ../partials/_head
+		include ../partials/_media-tags
+	body#page-top
+		block main
+
+		block modals
+
+		block scripts
+			script(type="text/javascript" src="js/app.js", async='')
+			script(type="text/javascript" src="lib/initMap.js")
+			script(async='', src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCc7w85mekpPQTXFEP8AiGyTCLOf765dEY&callback=initMap')
+

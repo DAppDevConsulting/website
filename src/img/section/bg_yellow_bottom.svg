@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1360px" height="99px" viewBox="0 0 1360 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>bottom</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1360" height="720" rx="4"></rect>
+        <linearGradient x1="78.4242156%" y1="-6.03474937%" x2="1.70834%" y2="-6.03474937%" id="linearGradient-3">
+            <stop stop-color="#DB2DAA" offset="0%"></stop>
+            <stop stop-color="#FFD500" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="78.4242156%" y1="-6.03474937%" x2="-20.1075038%" y2="-6.03474937%" id="linearGradient-4">
+            <stop stop-color="#DB2DAA" offset="0%"></stop>
+            <stop stop-color="#FFD500" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="home-page_03" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, -2925.000000)">
+        <g id="Group-19" transform="translate(0.000000, 2352.000000)">
+            <g id="bottom">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FFD500" xlink:href="#path-1"></use>
+                <path d="M-188,573 L333.039062,573 C339.666479,573 345.039062,578.372583 345.039062,585 L345.039062,585 C345.039062,591.627417 339.666479,597 333.039062,597 L-188,597 C-194.627417,597 -200,591.627417 -200,585 L-200,585 C-200,578.372583 -194.627417,573 -188,573 Z" id="Rectangle-16-Copy-6" fill="url(#linearGradient-3)" opacity="0.05" mask="url(#mask-2)"></path>
+                <path d="M1181,648 L1702.03906,648 C1708.66648,648 1714.03906,653.372583 1714.03906,660 L1714.03906,660 C1714.03906,666.627417 1708.66648,672 1702.03906,672 L1181,672 C1174.37258,672 1169,666.627417 1169,660 L1169,660 C1169,653.372583 1174.37258,648 1181,648 Z" id="Rectangle-16-Copy-4" fill="url(#linearGradient-4)" opacity="0.185461957" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

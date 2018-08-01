@@ -1,0 +1,85 @@
+.rich-text{
+
+  color: $black-light;
+
+  &_tc{
+    text-align: center;
+  }
+
+  h1, h2, h3, h4, h5, h6{
+    margin-bottom: .5em;
+    font-weight: 600;
+    line-height: 1.1;
+
+    &:not(:first-child){
+      margin-top: 1.15em;
+    }
+  }
+
+  h2{
+    font-size: 28px;
+  }
+
+  h3{
+    font-size: 24px;
+  }
+
+  p,
+  ol, ul{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 1em;
+
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+
+  li{
+    position: relative;
+    margin-bottom: 0.45em;
+    padding-left: 1em;
+
+    &::before{
+      content: '';
+      width: 6px;
+      height: 6px;
+      background-color: #FFD500;
+      position: absolute;
+      left: 0;
+      top: .5em;
+      border-radius: 50%;
+    }
+  }
+
+  ul.list-none li{
+    padding-left: 0;
+    &::before{
+      display: none;
+    }
+  }
+
+  @include mq(1024){
+    h2{
+      font-size: 38px;
+    }
+
+    h3{
+      font-size: 28px;
+    }
+
+    p,
+    ol, ul{
+      font-size: 22px;
+    }
+
+    li{
+      &::before{
+        width: 8px;
+        height: 8px;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,428 @@
+extends layouts/_layout_home
+block content
+	each speaker in speakers
+		.speakers__item
+			img.speakers__photo(src=`img/speakers/${speaker.photo}`, alt=`${speaker.name}`)
+			p.speakers__name #{speaker.name}
+			p.speakers__position #{speaker.position}
+			.speakers__social
+				if speaker.github
+					a(href=`${speaker.github}`)
+						svg.icon__git
+							use(xlink:href='#git')
+				if speaker.linkedin
+					a(href=`${speaker.linkedin}`)
+						svg.icon__linkedin
+							use(xlink:href='#link')
+
+
+
+	+b('section').hero.js-hero-section
+		+e.morphin
+			include ../img/morphin.svg
+		.row
+			+e('h1').title Websites & Apps that work for you
+
+	+section('Services', !1, !1, 'services')
+		+b.tiles._services
+			+e.item
+				+b('a').service(href='javascript:void(0)', data-toggle='modal', data-target='#service1')
+					+e.img(style="position: relative; left: 10px;")
+						img(src='../img/services/back-end.svg')
+					+e.text
+						+e('h3').title Websites &<br>Web Apps
+						+e('span').link
+							+b('span').link._details Read more
+			+e.item
+				+b('a').service(href='javascript:void(0)', data-toggle='modal', data-target='#service2')
+					+e.img
+						img(src='../img/services/mobile.svg')
+					+e.text
+						+e('h3').title Mobile<br>Apps
+						+e('span').link
+							+b('span').link._details Read more
+			+e.item
+				+b('a').service(href='javascript:void(0)', data-toggle='modal', data-target='#service3')
+					+e.img
+						img(src='../img/services/front-end.svg')
+					+e.text
+						+e('h3').title Complex<br>Solutions
+						+e('span').link
+							+b('span').link._details Read more
+			+e.item
+				+b('a').service(href='javascript:void(0)', data-toggle='modal', data-target='#service4')
+					+e.img
+						img(src='../img/services/design.svg')
+					+e.text
+						+e('h3').title UX & UI<br>Design
+						+e('span').link
+							+b('span').link._details Read more
+
+	+section('About Us', !1, '_bg_blue', 'aboutus')
+		+e.text: +b.rich-text
+			p iCON Software — modern international creative IT company based in Los Angeles with development offices located in Eastern Europe.
+			p Our professional team will make your customers take a fresh look at your business products and services, as well as grow your sales and make your brand more recognizable.
+			p iCON Software is the only partner your business requires in terms of a development and support of websites, applications and services that successfully solve business needs of any level in the field of financial technologies, logistics, health care, real estate, e-commerce and retail.
+			p We offer not only the expertise and the most advanced software development technologies, but also a full cycle support of our projects.
+
+	+section('Reviews', !1, '_reviews', 'reviews')
+		+b.slider._testimonials.js-slider-testimonials
+			+e.item
+				+b.testimonial-card
+					+e('blockquote').blockquote I highly recommend iCON to anyone who needs a website.Great value for the money. Well done!
+					+e.author
+						+b.user-preview
+							+e.img
+								img(src='img/user-preview/inna.jpg')
+							+e('p').name Inna Govorukhina
+
+			+e.item
+				+b.testimonial-card
+					+e('blockquote').blockquote iCON made modern mobile app our clients are in love with. Our next project is already yours, guys!
+					+e.author
+						+b.user-preview
+							+e.img
+								img(src='img/user-preview/dmitry.jpg')
+							+e('p').name Dmitry Savchenko
+
+			+e.item
+				+b.testimonial-card
+					+e('blockquote').blockquote We needed a expert developers to renovate our legacy CRM. iCON exceeded our expectations with their great work.
+					+e.author
+						+b.user-preview
+							+e.img
+								img(src='img/user-preview/kyle.jpg')
+							+e('p').name Kyle Buchanan
+
+			+e.item
+				+b.testimonial-card
+					+e('blockquote').blockquote Outsourcing our<br>e-commerce development with iCON and we’re really happy with the great results so far.
+					+e.author
+						+b.user-preview
+							+e.img
+								img(src='img/user-preview/mark.jpg')
+							+e('p').name Mark Leiner
+
+	+section('Careers', !1, '_bg_yellow', 'careers')
+		+b.careers
+			+e.tiles
+				+e.item
+					+b('a').career-card(href='javascript:void(0)', data-toggle='modal', data-target='#work_react')
+						+e('h3').title React<br>Developer
+						+e.img
+							img(src='../img/career/pm.svg')
+				+e.item
+					+b('a').career-card(href='javascript:void(0)', data-toggle='modal', data-target='#work_react-native')
+						+e('h3').title React Native<br>Developer
+						+e.img
+							img(src='../img/career/js-dev.svg')
+				+e.item
+					+b('a').career-card(href='javascript:void(0)', data-toggle='modal', data-target='#work_design')
+						+e('h3').title UX/UI Developer<br>/ Designer
+						+e.img
+							img(src='../img/career/python-dev.svg')
+
+
+				+e.item
+					+b('a').career-card(href='javascript:void(0)', data-toggle='modal', data-target='#work_react')
+						+e('h3').title React<br>Developer
+						+e.img
+							img(src='../img/career/pm.svg')
+				+e.item
+					+b('a').career-card(href='javascript:void(0)', data-toggle='modal', data-target='#work_react-native')
+						+e('h3').title React Native<br>Developer
+						+e.img
+							img(src='../img/career/js-dev.svg')
+				+e.item
+					+b('a').career-card(href='javascript:void(0)', data-toggle='modal', data-target='#work_design')
+						+e('h3').title UX/UI Developer<br>/ Designer
+						+e.img
+							img(src='../img/career/python-dev.svg')
+			+e.btn-more
+				+b('button').btn._violet.js-more-careers More Careers
+
+	+section('Technologies', !1, !1, 'technologies')
+		+b.technologies.js-slider-technologies
+			+e.item
+				img(src='../img/technologies/html-css-js.svg')
+			+e.item
+				img(src='../img/technologies/node.svg')
+			+e.item
+				img(src='../img/technologies/react.svg')
+			+e.item
+				img(src='../img/technologies/swift.svg')
+
+			+e.item
+				img(src='../img/technologies/html-css-js.svg')
+			+e.item
+				img(src='../img/technologies/node.svg')
+			+e.item
+				img(src='../img/technologies/react.svg')
+			+e.item
+				img(src='../img/technologies/swift.svg')
+
+	+b('section').section-map#contacts
+		+e.map#map
+		.row
+			+e.form
+				+b.contact-form
+					+e.heading
+						+e('h3').title Contact Us
+					+e('form').form(method='POST' action="http://formspree.io/info@iconsoft.io")
+						+e.row._col-2
+							+e.col
+								+b.form-group
+									input#name(type='text', name='name', placeholder='Your Name', required='')
+							+e.col
+								+b.form-group
+									input#email(type='email', name='email', placeholder='Email Address', required='')
+						+e.row
+							+b.form-group
+								textarea#message(name='message', placeholder='Message', rows='5', required='')
+						+e.row
+							+e('button').btn-submit.btn.btn_violet(type='submit') Let`s Go
+
+
+	+section(!1, !1, '_bg_grey')
+		+b.contacts
+			+e.col
+				+e('p').address 7083 Hollywood Blvd.<br>Los Angeles, CA 90028 USA
+			+e.col
+				+e('ul').tel
+					li
+						a(href='tel:+18186978899') +1 818 697 8899 US
+					li
+						a(href='tel:+18186978899') +380 67 404 3105 UA
+			+e.col._email
+				+e('a').email.link.link_details(href='mailto:info@iconsoft.io') info@iconsoft.io
+
+block modals
+	// Services
+	#service1.modal.fade.modal_note(tabindex='-1', role='dialog')
+		.modal-dialog(role='document')
+			.modal-content
+				.modal-header
+					button.close(type='button', data-dismiss='modal', aria-label='Close')
+					p.modal-title Websites & Web apps
+				.modal-body
+					+b.rich-text
+						ul
+							li design & prototyping
+							li markup & development
+							li testing & quality assurance
+							li deployment
+							li update & support
+							li legacy projects renovation
+						h2 Technologies we are using:
+						ul
+							li JavaScript: React, Angular, Ember, Vue.js, Backbone
+							li PHP: Laravel, Symphony, Meteor, Yii
+							li HTML/CSS: BEM, Bootstrap, Post CSS, Sass, Less
+
+	#service2.modal.fade.modal_note(tabindex='-1', role='dialog')
+		.modal-dialog(role='document')
+			.modal-content
+				.modal-header
+					button.close(type='button', data-dismiss='modal', aria-label='Close')
+					p.modal-title Mobile Apps
+				.modal-body
+					+b.rich-text
+						ul
+							li Native iOS & Android mobile apps
+							li Cross-Platform native apps
+							li Hybrid apps
+							li Progressive Web Apps
+						h2 Technologies we are using:
+						ul
+							li React native
+							li Xamarin
+							li PhoneGap
+							li Cordova
+							li Swift
+
+	#service3.modal.fade.modal_note(tabindex='-1', role='dialog')
+		.modal-dialog(role='document')
+			.modal-content
+				.modal-header
+					button.close(type='button', data-dismiss='modal', aria-label='Close')
+					p.modal-title Complex solutions
+				.modal-body
+					+b.rich-text
+						ul
+							li highload services & portals
+							li chatbots & messengers
+							li CRM systems
+							li CMS
+							li custom business automation solutions
+						h2 Technologies we are using:
+						ul
+							li JavaScript: Node.js, Express.js
+							li C#: ASP.NET
+							li Java: Spring MVC, Hibernate
+							li Python: Django, Flask
+							li C++: Qt
+
+	#service4.modal.fade.modal_note(tabindex='-1', role='dialog')
+		.modal-dialog(role='document')
+			.modal-content
+				.modal-header
+					button.close(type='button', data-dismiss='modal', aria-label='Close')
+					p.modal-title UX & UI Design
+				.modal-body
+					+b.rich-text
+						ul
+							li Concept arts
+							li Wireframes
+							li Mockups
+							li Prototypes
+							li Redesign
+						h2 Technologies we are using:
+						ul
+							li Sketch
+							li Adobe CC
+							li Zeplin
+							li InVision app
+
+	// Works
+	#work_react.modal.fade.modal_note(tabindex='-1', role='dialog')
+		.modal-dialog(role='document')
+			.modal-content
+				.modal-header
+					button.close(type='button', data-dismiss='modal', aria-label='Close')
+					p.modal-title React Developer
+				.modal-body
+					+b.rich-text
+						h2 What You Do
+						ul
+							li Develop Web apps using React
+							li Work with your product management counterpart to build the best experience for the end user.
+							li Break down problems into stories and tasks for you and your team to work on.
+							li Understand performance, scalability, and software development best practices, and implement them in the code you write.
+							li Work with designers to build a great user experience.
+						h2 More About You
+						p On the first day, we'll expect you to have:
+						ul
+							li 3+ years of software development experience
+							li Experience working with Scrum/Agile methodologies
+							li Experience in developing responsive UI for mobile
+							li Experience building single page web applications.
+							li Fluency in HTML5, CSS, ES6 & React
+							li Experience using a variety of modern web technologies, including React, Redux, Babel, Webpack, NodeJS and npm.
+							li Excellent communication skills to both technical and non-technical audiences
+						h2 It's great, but not required, if you have
+						ul
+							li Bachelors/Masters degree in Computer Science or a related field.
+							li Personal projects built with React
+							li Experience with modern dev stack (Docker, Kubernetes, Vagrant) as well as cloud hosting solutions
+							li Experience using JavaScript testing tools and frameworks
+							li Experience with MongoDB, PostgreSQL
+							li Experience evaluating and adopting new technologies.
+							li Experience using analytics data to make decisions on architecture or UI.
+							li Familiarity with chat / messaging systems would be a huge bonus.
+						h2 More About Our Team
+						p Rather than experience with particular tools, we really want smart and capable people who can suggest new tools as needed. But here's what we're using today:
+						ul
+							li BEM
+							li Git & Github
+							li Jira
+							li Docker, Kubernetes, Vagrant
+							li Bamboo
+						h2 More About iCON Software
+						p iCON Software — modern international creative IT company based in Los Angeles with development offices located in Eastern Europe.
+						p Our professional team will make your customers take a fresh look at your business products and services, as well as grow your sales and make your brand more recognizable.
+						p iCON Software is the only partner your business requires in terms of a development and support of websites, applications and services that successfully solve business needs of any level in the field of financial technologies, logistics, health care, real estate, e-commerce and retail.
+						p We offer not only the expertise and the most advanced software development technologies, but also a full cycle support of our projects.
+
+	#work_react-native.modal.fade.modal_note(tabindex='-1', role='dialog')
+		.modal-dialog(role='document')
+			.modal-content
+				.modal-header
+					button.close(type='button', data-dismiss='modal', aria-label='Close')
+					p.modal-title React Native Developer
+				.modal-body
+					+b.rich-text
+						h2 What You Do
+						p You’ll be a critical member of our small software engineering team working on new and exciting React Native mobile apps. This isn’t an average position where you might be restricted to one small piece of the company’s technology, but one where you’ll have creative freedom to expand into new markets and apps.
+						h2 The Job Involves The Following Responsibilities
+						ul
+							li Contribute to our native apps written in React Native using Git version control
+							li Integrating with 3rd party APIs and Services
+							li Be responsible for a whole product line of apps
+							li Integrate with our backend services to make sure we are delivering a great mobile user experience
+							li Participate in brainstorming sessions and have the chance to contribute innovative and original ideas to our technology, algorithms and product
+							li Dive into difficult problems and successfully deliver results within a schedule
+						h2 Who You Are
+						p You want to work on challenging problems with smart people. You want to develop apps that reach people worldwide. You’re someone who could get positions at most software companies, but you’re looking for the unique role that has great leadership and creative freedom.
+						h2 You also meet most (if not all) of the following requirements
+						ul
+							li Strong Programming skills with JavaScript (React, Redux)
+							li 1-3 years of recent hands-on React Native coding and design
+							li Familiar with Swift or Objective-C
+							li Experience working in a CI environment
+							li Experience working with a serverless environment
+							li Evidence of being self-motivated and driven - you find satisfaction in a job well done
+							li Bonus - you have apps currently live on the AppStore
+							li You can contribute at least 2 good songs to our team playlist
+						h2 More About iCON Software
+						p iCON Software — modern international creative IT company based in Los Angeles with development offices located in Eastern Europe.
+						p Our professional team will make your customers take a fresh look at your business products and services, as well as grow your sales and make your brand more recognizable.
+						p iCON Software is the only partner your business requires in terms of a development and support of websites, applications and services that successfully solve business needs of any level in the field of financial technologies, logistics, health care, real estate, e-commerce and retail.
+						p We offer not only the expertise and the most advanced software development technologies, but also a full cycle support of our projects.
+
+	#work_design.modal.fade.modal_note(tabindex='-1', role='dialog')
+		.modal-dialog(role='document')
+			.modal-content
+				.modal-header
+					button.close(type='button', data-dismiss='modal', aria-label='Close')
+					p.modal-title UX/UI Developer / Designer
+				.modal-body
+					+b.rich-text
+						h2 Job purpose:
+						p Define interaction models, user task flows, and UI specifications. Communicate scenarios, end-to-end experiences, interaction models, and screen designs to the team. Work with our team to incorporate the visual identity of into our products features. Develop and maintain design wireframes, mockups, and specifications.The broad responsibility is to ensure that the product logically flows from one step to the next.
+						p Deliverables: Wireframes of screens, storyboards, design, sitemaps, logos
+						p Tools: Sketch, Photoshop, Illustrator, Fireworks, Zeplin, InVisionApp, Conceptboard
+
+						h2 Primary/Major Responsibilities:
+						ul
+							li Collaborating with product management and engineering to define and implement innovative solutions for the product direction, visuals and experience
+							li Conceptualizing original ideas that bring simplicity and user friendliness to complex design roadblocks
+							li responsible for creating a cohesive style guide and ensuring that a consistent design language is applied across the product
+							li in charge of designing each screen or page with which a user interacts and ensuring that the UI visually communicates the path that a UX designer has laid out
+							li Maintaining consistency in visual elements and defining behavior such as how to display error or warning states fall under the purview of a UI designer
+							li Define interaction models, user task flows, and UI specifications.
+							li Creating wireframes, storyboards, sitemaps and screen flows
+							li Developing personas and usage scenarios
+							li Analyzing user feedback and activity, and iterating to enhance the user experience
+							li Assisting with content development
+							li Conducting competitor and customer analysis
+							li keep up to date with new technologies and trends, and continuously study UX advances
+
+						h2 Position Objectives:
+						p UX/UI Designer generally design Web-based interfaces such as sites, applications, and games. In order to do this effectively, you must consider all aspects of the user experience. You should have basic coding skills and be well-versed in current Web standards, including best practices for usability and accessibility. This vacancy requires a good eye for design and close attention to detail.
+
+						h2 Qualifications for the position:
+						ul
+							li Proven UI/UX experience
+							li Demonstrable UI/UX design skills with a strong portfolio
+							li Solid experience in creating wireframes, storyboards, user flows, process flows and sitemaps
+							li Proficiency in Sketch, Photoshop, Illustrator, Zeplin, inVisionApp or other visual design and wireframing tools
+							li Excellent visual design skills with sensitivity to user-system interaction
+							li Ability to present your designs and sell your solutions to various stakeholders.
+							li Ability to solve problems creatively and effectively
+							li Up-to-date with the latest UI trends, techniques, and technologies
+							li self-directed but also collaborative
+							li possess superb communication, time-management and process-management skills
+							li Solid knowledge of basic UX theory and processes
+							li Portfolio of past work completed
+							li Some Experience in HTML, CSS, and JavaScript for rapid prototyping.
+							li Experience working in an Agile/Scrum development process
+
+						h2 More About iCON Software
+						p iCON Software — modern international creative IT company based in Los Angeles with development offices located in Eastern Europe.
+						p Our professional team will make your customers take a fresh look at your business products and services, as well as grow your sales and make your brand more recognizable.
+						p iCON Software is the only partner your business requires in terms of a development and support of websites, applications and services that successfully solve business needs of any level in the field of financial technologies, logistics, health care, real estate, e-commerce and retail.
+						p We offer not only the expertise and the most advanced software development technologies, but also a full cycle support of our projects.
+
+
+
+

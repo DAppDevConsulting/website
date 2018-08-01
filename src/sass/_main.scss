@@ -1,0 +1,117 @@
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  /*background-color: #ac00e6;*/
+}
+
+body {
+  font: {
+    size: 16px;
+    family: $primary-font;
+  }
+  background-color: #fff;
+  color: $text-color;
+  @include font-smoothing;
+}
+
+html.noscroll,
+html.noscroll body{
+  overflow: hidden !important;
+  height: 100% !important;
+}
+
+:focus{
+  outline: 0;
+}
+
+p,h1,h2,h3,h4,ul{
+  margin: 0;
+}
+
+ul{
+  padding: 0;
+}
+
+a {
+  @include transition(color, opacity $primary_transition);
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* --------------------------------
+
+Main content
+
+-------------------------------- */
+
+
+
+@include mq_max(1023){
+  .mobile-hidden{
+    display: none!important;
+  }
+}
+
+@include mq(1024){
+  .desktop-hidden{
+    display: none!important;
+  }
+}
+
+textarea{
+  resize: none;
+}
+
+/* xkeyframes */
+
+@include keyframes(fadeInDown) {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@include keyframes(fadeInUp) {
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@include keyframes(fadeIn) {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@include keyframes(fadeOut) {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

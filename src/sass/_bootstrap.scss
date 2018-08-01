@@ -1,0 +1,145 @@
+.fade {
+  opacity: 0;
+  transition: opacity .15s linear;
+
+  &.in {
+    opacity: 1;
+  }
+}
+
+/*********************MODAL*********************/
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+
+  &-open {
+    overflow: hidden;
+
+    .modal {
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+  }
+
+  &-dialog {
+    position: relative;
+    width: 95%;
+    max-width: 820px;
+    margin: 25px auto;
+  }
+
+  &-content {
+    position: relative;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.15);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    outline: 0;
+  }
+
+  &-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #060017;
+
+    &.fade {
+      opacity: 0;
+      filter: alpha(opacity=0);
+    }
+    &.in {
+      opacity: 0.75;
+      filter: alpha(opacity=50);
+    }
+  }
+
+  &-header {
+    position: relative;
+    .close {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border: none;
+      transition: opacity $fast-transition;
+
+      opacity: .45;
+      background: url($img + "ico-close.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  @include mq(1024){
+    &-header{
+      .close{
+        top: 21px;
+        right: 21px;
+
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+
+}
+
+.modal.fade .modal-dialog {
+  transform: translate(0, -25%);
+  transition: transform 0.3s cubic-bezier(.165, .84, .44, 1);
+}
+
+.modal.in .modal-dialog {
+  transform: translate(0, 0);
+}
+
+/*********************COLLAPSE*********************/
+
+.collapse {
+  display: none;
+}
+
+.collapse.in {
+  display: block;
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition-property: height, visibility;
+  transition-duration: 0.35s;
+  transition-timing-function: ease;
+}
+
+/*********************TAB*********************/
+
+.tab-content > {
+  .tab-pane {
+    display: none;
+  }
+  .active {
+    display: block;
+  }
+}

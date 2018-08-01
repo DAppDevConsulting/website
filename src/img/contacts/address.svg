@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="62px" viewBox="0 0 52 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>address</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M26,62 C43.3333333,47.5729357 52,35.5729357 52,26 C52,11.6405965 40.3594035,0 26,0 C11.6405965,0 0,11.6405965 0,26 C0,35.5729357 8.66666667,47.5729357 26,62 Z" id="path-1"></path>
+        <circle id="path-2" cx="26" cy="24" r="11"></circle>
+    </defs>
+    <g id="home-page_04" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-55.000000, -4352.000000)">
+        <g id="Group-23" transform="translate(55.000000, 4352.000000)">
+            <g id="Group-12">
+                <g id="address">
+                    <g id="Oval-11">
+                        <use fill="#FFD500" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <path stroke="#514CC8" stroke-width="4" d="M26,59.3888251 C42.0543964,45.7964403 50,34.575742 50,26 C50,12.745166 39.254834,2 26,2 C12.745166,2 2,12.745166 2,26 C2,34.575742 9.94560362,45.7964403 26,59.3888251 Z"></path>
+                    </g>
+                    <g id="Oval-12">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <circle stroke="#514CC8" stroke-width="4" cx="26" cy="24" r="9"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

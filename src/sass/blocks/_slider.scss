@@ -1,0 +1,99 @@
+.slider{
+
+  //BEGIN mods
+  &_testimonials{
+    margin: 0 -15px 40px;
+
+    .slick-dots {
+      display: block;
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      bottom: -40px;
+      z-index: 3;
+      li {
+        display: inline-block;
+
+        &:not(:first-child){
+          margin-left: 8px;
+        }
+
+        button {
+          font-size: 0;
+          line-height: 0;
+          padding: 0;
+          display: block;
+          width: 8px;
+          height: 8px;
+          background-color: #eaeaeb;
+          border: none;
+          border-radius: 50%;
+        }
+
+        &.slick-active {
+          button {
+            background-color: #443ec7;
+          }
+        }
+      }
+    }
+
+    .slider{
+      &__item{
+        display: flex;
+
+        .testimonial-card{
+          max-width: 340px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+
+    @include mq(1024){
+      .slick-dots{
+        bottom: -77px;
+
+        li{
+          &:not(:first-child){
+            margin-left: 16px;
+          }
+
+          button{
+            width: 16px;
+            height: 16px;
+            border: 4px solid #eaeaeb;
+          }
+
+          &.slick-active {
+            button {
+              background-color: #fff;
+              border-color: #443ec7;
+            }
+          }
+
+        }
+      }
+
+      .slider{
+        &__item{
+          position: relative;
+
+          &::after{
+            content: '';
+            position: absolute;
+            right: -2px;
+            top: 54px;
+            width: 4px;
+            height: 200px;
+            background-color: rgba(#979797, 0.15);
+            border-radius: 4px;
+          }
+        }
+      }
+    }
+
+  }
+  //END mods
+
+}
