@@ -1,0 +1,6 @@
+mixin sidebar(classes_mod, items)
+	+b('aside').page-nav(class=classes_mod)
+		+e('ul').list
+			each item in items
+				+e('li').list-item
+					+e('a').link(href=`${item.href}`) #{item.name}

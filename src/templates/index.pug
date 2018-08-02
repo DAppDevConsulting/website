@@ -1,22 +1,5 @@
 extends layouts/_layout_home
 block content
-	each speaker in speakers
-		.speakers__item
-			img.speakers__photo(src=`img/speakers/${speaker.photo}`, alt=`${speaker.name}`)
-			p.speakers__name #{speaker.name}
-			p.speakers__position #{speaker.position}
-			.speakers__social
-				if speaker.github
-					a(href=`${speaker.github}`)
-						svg.icon__git
-							use(xlink:href='#git')
-				if speaker.linkedin
-					a(href=`${speaker.linkedin}`)
-						svg.icon__linkedin
-							use(xlink:href='#link')
-
-
-
 	+b('section').hero.js-hero-section
 		+e.morphin
 			include ../img/morphin.svg

@@ -2,14 +2,11 @@ import "slick-carousel/slick/slick";
 import "bootstrap/js/transition";
 import "bootstrap/js/modal";
 import "bootstrap/js/scrollspy";
-import morphin from "./lib/morphin";
 import "jquery-easing";
 
 
 
 $(document).ready(function () {
-
-  morphin();
 
   // BEGIN Sliders
   $(".js-slider-testimonials").slick({

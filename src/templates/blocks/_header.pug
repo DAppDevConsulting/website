@@ -1,23 +1,16 @@
 //BEGIN header
 mixin m-header(classes)
 	input.m-header__menustate(type="checkbox" id="menustate" style="display:none;")
-	+b('header').m-header.js-m-header(class=classes)#mainNav
+	+b('header').m-header.js-m-header(class=classes)
 		+e.container
 			+e('a')(href='#page-top').logo.js-scroll-trigger
 				include ../../img/m-logo.svg
 			+e('label').menu-toggle.js-menu-toggle.desktop-hidden(for="menustate") Menu
 				+e('span').menu-ico: span
 			+e('ul').nav.nav
-				+e('li'): a(href='#services').js-scroll-trigger Services
-				+e('li'): a(href='#aboutus').js-scroll-trigger About Us
-				+e('li'): a(href='#reviews').js-scroll-trigger Reviews
-				+e('li'): a(href='#careers').js-scroll-trigger Careers
-				+e('li'): a(href='#contacts').js-scroll-trigger Contacts
-				+e('li')
-					+e('ul').nav-lang
-						li: a(href='#0') Ru
-						li.chacked: a(href='#0') En
-						//<li><a href="ru">Ru</a></li>
-						//<li><a href="../">En</a></li>
+				+e('li'): a(href='#0').js-scroll-trigger Consulting
+				+e('li'): a(href='#0').js-scroll-trigger Conference
+				+e('li'): a(href='#0').js-scroll-trigger Hackaton
+				+e('li'): a(href='#0').js-scroll-trigger Jobs
 
 //END header
