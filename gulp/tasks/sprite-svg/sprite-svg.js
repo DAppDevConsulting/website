@@ -28,35 +28,6 @@ gulp.task('sprite:svg', function() {
         }))
         .pipe(rename({ prefix: 'icon-' }))
         .pipe(svgStore({ inlineSvg: false }))
-        .pipe(through2.obj(function(file, encoding, cb) {
-            var $ = file.cheerio;
-            var data = $('svg > symbol').map(function() {
-                var $this  = $(this);
-                var size   = $this.attr('viewBox').split(' ').splice(2);
-                var name   = $this.attr('id');
-                var ratio  = size[0] / size[1]; // symbol width / symbol height
-                var fill   = $this.find('[fill]:not([fill="currentColor"])').attr('fill');
-                var stroke = $this.find('[stroke]').attr('stroke');
-                return {
-                    name: name,
-                    ratio: +ratio.toFixed(2),
-                    fill: fill || 'initial',
-                    stroke: stroke || 'initial'
-                };
-            }).get();
-            this.push(file);
-            gulp.src(__dirname + '/_sprite-svg.scss')
-                .pipe(consolidate('lodash', {
-                    symbols: data
-                }))
-                .pipe(gulp.dest(config.src.sassGen));
-            gulp.src(__dirname + '/sprite.html')
-                .pipe(consolidate('lodash', {
-                    symbols: data
-                }))
-                .pipe(gulp.dest(config.src.root));
-            cb();
-        }))
         .pipe(cheerio({
             run: function($, file) {
                 $('[fill]:not([fill="currentColor"])').removeAttr('fill');

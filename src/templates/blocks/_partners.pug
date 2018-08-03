@@ -1,0 +1,5 @@
+mixin partners(items, classes_mod)
+	+b.tiles(class=classes_mod)
+		each item in items
+			+e('a').item(href=`${item.href}`)
+				img(src=`../img/partners/${item.img}`)

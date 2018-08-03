@@ -1,0 +1,14 @@
+mixin tickets(items, classes_mod)
+	+b.tiles._tickets(class=classes_mod)
+		each item in items
+			+e.item
+				+b.ticket
+					+e('p').type #{item.type}
+					+e('p').time
+						+e('span').days #{item.days}
+						+e('span').minutes #{item.minutes}
+						+e('span').seconds #{item.seconds}
+					+e('p').price #{item.price}
+					+e('p').text #{item.text}
+					+e.btn
+						+b('a').btn._blue(href=`${item.href}`) Get ticket

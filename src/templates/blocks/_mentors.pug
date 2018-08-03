@@ -1,0 +1,16 @@
+mixin mentors(items, classes_mod)
+	+b.tiles._mentors(class=classes_mod)
+		each item in items
+			+e.item
+				+b.mentor
+					+e.img
+						img(src=`../img/services/${item.photo}`)
+					+e.text
+						+e('p').name #{item.name}
+						+e('p').descr #{item.description}
+						+e.links
+							+b('ul').social
+								+e('li'): +e('a').icon(href=`${item.github}`)
+									+icon('github')
+								+e('li'): +e('a').icon(href=`${item.linkedin}`)
+									+icon('linkedin')

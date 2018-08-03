@@ -1,0 +1,10 @@
+mixin program(items, classes_mod)
+	+b.program(class=classes_mod)
+		each item in items
+			+e.col
+				+e('h3').title #{item.title}
+				+e.timeline
+					each event in item.events
+						+e.event
+							+e('p').event-time #{event.time}
+							+e('p').event-title #{event.title}

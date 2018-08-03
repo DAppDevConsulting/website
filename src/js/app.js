@@ -1,7 +1,7 @@
 import "slick-carousel/slick/slick";
-import "bootstrap/js/transition";
-import "bootstrap/js/modal";
-import "bootstrap/js/scrollspy";
+import "bootstrap/js/dist/util";
+import "bootstrap/js/dist/modal";
+import "bootstrap/js/dist/scrollspy";
 import "jquery-easing";
 
 
@@ -141,25 +141,5 @@ $(document).ready(function () {
   })(jQuery); // End of use strict
   // END Header scroll
 
-
-  // BEGIN careers show more
-  $(() => {
-    const itemClass = '.careers__item';
-    const itemClassHidden = (itemClass + ':hidden');
-    const $btnShowMore = $('.js-more-careers');
-
-    $(itemClass).slice(3).hide();
-
-    const handleShowMoreBtn = (event) => {
-      event.preventDefault();
-
-      $btnShowMore.parent().fadeOut(100, () => {
-        $(itemClassHidden).show().addClass('fadeInUp');
-      });
-    };
-
-    $btnShowMore.on('click', handleShowMoreBtn);
-  });
-  // END careers show more
 
 });

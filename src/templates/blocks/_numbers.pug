@@ -1,0 +1,7 @@
+mixin numbers(items, classes_mod)
+	+b.tiles._numbers(class=classes_mod)
+		each item in items
+			+e.item
+				+b.number
+					+e('h3').num #{item.number}
+					+e('p').descr #{item.description}
