@@ -54,7 +54,8 @@
     ],
     "program": [
       {
-        "title": "DAY I<br/>15 September",
+        "title": "DAY I",
+        "subtitle": "15 September",
         "events": [
           {
             "title": "Registration, morning coffee",
@@ -63,19 +64,44 @@
           {
             "title": "Presentation of DApp DEV Hackathon Challenges. Mentor’s intro.",
             "time": "09:00 - 10:00"
+          },
+          {
+            "title": "Forming teams & work preparation",
+            "time": "11:00 - 11:30"
+          },
+          {
+            "title": "Working on projects",
+            "time": "11:00 - 11:30"
+          },
+          {
+            "title": "Lunch break",
+            "time": "11:00 - 11:30"
+          },
+          {
+            "title": "Working on projects (snacks and beverages will be provided)",
+            "time": "11:00 - 11:30"
           }
         ]
       },
       {
-        "title": "DAY II<br/>15 September",
+        "title": "DAY II",
+        "subtitle": "15 September",
         "events": [
           {
-            "title": "Registration, morning coffee",
+            "title": "Breakfast",
             "time": "09:00 - 10:00"
           },
           {
-            "title": "Presentation of DApp DEV Hackathon Challenges. Mentor’s intro.",
+            "title": "Working on projects (final cuts)",
             "time": "09:00 - 10:00"
+          },
+          {
+            "title": "Presentation of the projects, voting, winner’s announcement and summary",
+            "time": "11:00 - 11:30"
+          },
+          {
+            "title": "End of DApp DEV Hackathon Afterparty",
+            "time": "11:00 - 11:30"
           }
         ]
       }
@@ -138,25 +164,74 @@
     "partners": [
       {
         "href": "#0",
-        "img": ""
+        "img": "ambrous.png"
       },
       {
         "href": "#0",
-        "img": ""
+        "img": "aragon.png"
+      },
+      {
+        "href": "#0",
+        "img": "berkeley.png"
+      },
+      {
+        "href": "#0",
+        "img": "bigchain.png"
+      },
+      {
+        "href": "#0",
+        "img": "bounties.png"
+      },
+      {
+        "href": "#0",
+        "img": "cardano.png"
       }
     ],
     "contributors": [
       {
         "href": "#0",
-        "img": ""
+        "img": "ambrous.png"
       },
       {
         "href": "#0",
-        "img": ""
+        "img": "aragon.png"
+      },
+      {
+        "href": "#0",
+        "img": "berkeley.png"
+      },
+      {
+        "href": "#0",
+        "img": "bigchain.png"
+      },
+      {
+        "href": "#0",
+        "img": "bounties.png"
+      },
+      {
+        "href": "#0",
+        "img": "cardano.png"
+      },
+      {
+        "href": "#0",
+        "img": "foam.png"
+      },
+      {
+        "href": "#0",
+        "img": "iota.png"
+      },
+      {
+        "href": "#0",
+        "img": "maiden.png"
+      },
+      {
+        "href": "#0",
+        "img": "maker.png"
       }
     ],
     "pastEvents": {
-      "title": "Kyiv<br/>20.10.2018 - 21.10.2018",
+      "title": "Kyiv",
+      "subtitle": "20.10.2018 - 21.10.2018",
       "video": "#0",
       "photos": [
         "#0",

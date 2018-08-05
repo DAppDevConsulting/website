@@ -1,21 +1,17 @@
 //BEGIN footer
 mixin m-footer(classes)
 	+b('footer').m-footer(class=classes)
-		.row
-			+e.flex-wrap
-				+e.col
-					+b('ul').social
-						+e('li'): +e('a').icon(href='#0')
-							+icon('github')
-						+e('li'): +e('a').icon(href='#0')
-							+icon('linkedin')
-						+e('li'): +e('a').icon(href='#0')
-							+icon('telegram')
-						+e('li'): +e('a').icon(href='#0')
-								+icon('youtube')
-						+e('li'): +e('a').icon(href='#0')
-							+icon('facebook')
-						+e('li'): +e('a').icon(href='#0')
-							+icon('twitter')
-
-//END footer
+		+e.container
+			+b('ul').social
+				+e('li'): +e('a').icon(href='#0')
+					+icon('github')
+				+e('li'): +e('a').icon(href='#0')
+					+icon('linkedin')
+				+e('li'): +e('a').icon(href='#0')
+					+icon('telegram')
+				+e('li'): +e('a').icon(href='#0' style="position: relative; top: 2px;")
+					+icon('youtube')
+				+e('li'): +e('a').icon(href='#0')
+					+icon('facebook')
+				+e('li'): +e('a').icon(href='#0')
+					+icon('twitter')

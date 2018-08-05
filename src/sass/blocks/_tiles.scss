@@ -83,6 +83,32 @@
       }
     }
   }
+
+  &_tickets {
+    margin: -25px -15px;
+
+    .tiles {
+      &__item {
+        width: 300px;
+        padding: 25px 15px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+      }
+
+    }
+
+    @include mq(768){
+      flex-shrink: 0;
+      align-items: stretch;
+
+      .tiles{
+        &__item {
+          margin: 0;
+        }
+      }
+    }
+  }
   //END mods
 
 }

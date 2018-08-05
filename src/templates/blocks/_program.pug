@@ -2,7 +2,7 @@ mixin program(items, classes_mod)
 	+b.program(class=classes_mod)
 		each item in items
 			+e.col
-				+e('h3').title #{item.title}
+				+e('h3').title #{item.title}<br/>#{item.subtitle}
 				+e.timeline
 					each event in item.events
 						+e.event

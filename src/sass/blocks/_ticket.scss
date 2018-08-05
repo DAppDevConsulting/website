@@ -1,0 +1,56 @@
+.ticket {
+  padding: 45px 26px 42px;
+  border: 1px solid $main;
+  text-align: center;
+
+  &__type{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+
+  &__time{
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    padding-bottom: 15px;
+    margin-left: -6px;
+    margin-right: -6px;
+  }
+
+  &__days,
+  &__minutes,
+  &__seconds{
+    position: relative;
+    margin: 0 6px;
+
+    &::after{
+      content: attr(data-label);
+      position: absolute;
+      font-size: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      margin: auto;
+      bottom: -12px;
+    }
+  }
+
+  &__price{
+    font-family: $secondary-font;
+    font-size: 46px;
+    font-weight: 700;
+    margin: 28px 0 17px;
+  }
+
+  &__text{
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+  &__btn{
+    margin-top: 35px;
+  }
+}

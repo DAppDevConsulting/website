@@ -5,10 +5,10 @@ mixin tickets(items, classes_mod)
 				+b.ticket
 					+e('p').type #{item.type}
 					+e('p').time
-						+e('span').days #{item.days}
-						+e('span').minutes #{item.minutes}
-						+e('span').seconds #{item.seconds}
+						+e('span')(data-label="days").days #{item.days}
+						+e('span')(data-label="min").minutes #{item.minutes}
+						+e('span')(data-label="sec").seconds #{item.seconds}
 					+e('p').price #{item.price}
 					+e('p').text #{item.text}
 					+e.btn
-						+b('a').btn._blue(href=`${item.href}`) Get ticket
+						+b('a').btn._solid(href=`${item.href}`) Get ticket

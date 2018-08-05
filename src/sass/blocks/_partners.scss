@@ -1,0 +1,47 @@
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: -20px;
+  margin-right: -20px;
+
+  &__item {
+    display: block;
+    width: 190px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  &__img {
+    max-width: 100%;
+  }
+
+  @include mq(768) {
+    margin-left: -50px;
+    margin-right: -50px;
+
+    &__item {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  }
+
+  &_contributors{
+
+    .partners__item {
+      width: 124px;
+      max-width: 50%;
+    }
+
+    @include mq(768) {
+      margin-left: -20px;
+      margin-right: -20px;
+
+      .partners__item {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+    }
+  }
+}

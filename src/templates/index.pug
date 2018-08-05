@@ -2,9 +2,10 @@ extends layouts/_layout_landing
 block content
 	+b('section').hero(id='home')
 		.row
-			+e('p').up-text SEP 11-16, 2018 / Kyiv
-			+e('h1').title DApp DEV Blockchain Workshops & Hackathon
-			+e('p').subtitle CODE CLEAN. SCALE FAST
+			+e.content
+				+e('p').up-text SEP 11-16, 2018 / Kyiv
+				+e('h1').title DApp DEV Blockchain Workshops & Hackathon
+				+e('p').subtitle CODE CLEAN. SCALE FAST
 
 	+section('About', !1, !1, 'about')
 		+e.text.rich-text
@@ -40,13 +41,13 @@ block content
 			+e.map
 
 	+section('FAQ', !1, !1, 'faq')
-		+b.faq
+		+faq()
 
 	+section('Past events', !1, !1, 'past-events')
 		+b.full-video
 			a(href=`${hackaton.pastEvents.video}`)
 		+b.img-tiles
-			+e('h3').title #{hackaton.pastEvents.title}
+			+e('h3').title #{hackaton.pastEvents.title}<br/>#{hackaton.pastEvents.subtitle}
 			+e.tiles
 				each img in hackaton.pastEvents.photos
 					+e.tiles-item
