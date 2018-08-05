@@ -1,0 +1,21 @@
+.number {
+  text-align: center;
+  color: $main;
+
+  &__num{
+    font-family: $secondary-font;
+    font-size: 88px;
+    font-weight: 700;
+    text-shadow: -9px 6px 0 rgba(115, 245, 226, 0.25);
+  }
+
+  &__desc{
+    font-size: 12px;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

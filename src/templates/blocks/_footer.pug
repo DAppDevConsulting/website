@@ -3,23 +3,19 @@ mixin m-footer(classes)
 	+b('footer').m-footer(class=classes)
 		.row
 			+e.flex-wrap
-				+e.col.mobile-hidden
-					+e('a')(href='#page-top').logo.js-scroll-trigger
-						img(src="img/footer/footer-logo.svg" alt='icon soft')
 				+e.col
 					+b('ul').social
 						+e('li'): +e('a').icon(href='#0')
-							+icon('instagram')
-						+e('li'): +e('a').icon(href='#0')
-							+icon('twitter')
-						+e('li'): +e('a').icon(href='#0')
-							+icon('fb')
+							+icon('github')
 						+e('li'): +e('a').icon(href='#0')
 							+icon('linkedin')
-			+e.flex-wrap
-				+e.col
-					+e('p').copyrights &copy; 2017 Icon Software. All Rights Reserved.
-				+e.col.mobile-hidden
-					+e('a').email(href='mailto:info@iconsoft.io') info@iconsoft.io
+						+e('li'): +e('a').icon(href='#0')
+							+icon('telegram')
+						+e('li'): +e('a').icon(href='#0')
+								+icon('youtube')
+						+e('li'): +e('a').icon(href='#0')
+							+icon('facebook')
+						+e('li'): +e('a').icon(href='#0')
+							+icon('twitter')
 
 //END footer

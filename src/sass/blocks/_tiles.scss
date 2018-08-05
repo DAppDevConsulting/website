@@ -9,23 +9,33 @@
 
 
   //BEGIN mods
-  &_services {
+  &_numbers {
     .tiles {
 
       &__item {
+        width: 180px;
+        margin-top: 34px;
+        margin-left: auto;
+        margin-right: auto;
+
         &:not(:first-child) {
           margin-top: 40px;
+        }
+
+        &:first-child{
+          .number__desc{
+            max-width: 160px;
+          }
         }
       }
 
     }
 
     @include mq(768){
-      margin: -30px 0;
+      margin: 34px 0 -30px;
       .tiles{
         &__item {
           flex-shrink: 0;
-          width: 220px;
           margin: 30px 60px;
           &:not(:first-child) {
             margin-top: 30px;
@@ -35,14 +45,40 @@
     }
 
     @include mq(1024){
-      margin: -30px -20px;
+      margin: 34px -30px -30px;
       flex-wrap: nowrap;
       justify-content: space-between;
 
       .tiles {
         &__item {
-          margin-left: 20px;
-          margin-right: 20px;
+          margin-left: 30px;
+          margin-right: 30px;
+        }
+      }
+    }
+  }
+
+  &_mentors {
+    margin: -25px -15px;
+
+    .tiles {
+      &__item {
+        width: 300px;
+        padding: 25px 15px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+      }
+
+    }
+
+    @include mq(768){
+      flex-shrink: 0;
+      align-items: stretch;
+
+      .tiles{
+        &__item {
+          margin: 0;
         }
       }
     }

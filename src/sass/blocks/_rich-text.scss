@@ -1,6 +1,5 @@
 .rich-text{
-
-  color: $black-light;
+  color: $text-color;
 
   &_tc{
     text-align: center;
@@ -62,16 +61,16 @@
 
   @include mq(1024){
     h2{
-      font-size: 38px;
+      font-size: 32px;
     }
 
     h3{
-      font-size: 28px;
+      font-size: 24px;
     }
 
     p,
     ol, ul{
-      font-size: 22px;
+      font-size: 18px;
     }
 
     li{

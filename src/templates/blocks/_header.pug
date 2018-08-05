@@ -3,14 +3,16 @@ mixin m-header(classes)
 	input.m-header__menustate(type="checkbox" id="menustate" style="display:none;")
 	+b('header').m-header.js-m-header(class=classes)
 		+e.container
-			+e('a')(href='#page-top').logo.js-scroll-trigger
+			+e('a')(href='#page-top').logo
 				include ../../img/m-logo.svg
+			+e('ul').nav
+				+e('li'): a(href='#0') Consulting
+				+e('li'): a(href='#0') Conference
+				+e('li'): a(href='#0') Hackaton
+				+e('li'): a(href='#0') Jobs
+			+e('a').btn.btn_outline Get ticket
 			+e('label').menu-toggle.js-menu-toggle.desktop-hidden(for="menustate") Menu
 				+e('span').menu-ico: span
-			+e('ul').nav.nav
-				+e('li'): a(href='#0').js-scroll-trigger Consulting
-				+e('li'): a(href='#0').js-scroll-trigger Conference
-				+e('li'): a(href='#0').js-scroll-trigger Hackaton
-				+e('li'): a(href='#0').js-scroll-trigger Jobs
+
 
 //END header

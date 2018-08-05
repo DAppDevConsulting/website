@@ -2,17 +2,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: -19px;
-  margin-right: -19px;
+  margin-left: -10px;
+  margin-right: -10px;
 
   li{
     display: inline-block;
-    margin: 0 19px;
+    margin: 0 10px;
   }
 
   &__icon{
     display: block;
-    width: 21px;
+    width: 24px;
     height: 24px;
     text-decoration: none;
     transition: transform $fast-transition;

@@ -34,6 +34,6 @@ gulp.task('pug:changed', function() {
 });
 
 gulp.task('pug:watch', function() {
-    gulp.watch([config.src.templates + '/**/_*.pug'], ['pug']);
+    gulp.watch([config.src.templates + '/**/_*.pug', config.src.data + '/**/*.json'], ['pug']);
     gulp.watch([config.src.templates + '/**/[^_]*.pug'], ['pug:changed']);
 });

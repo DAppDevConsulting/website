@@ -1,6 +1,6 @@
 mixin page-nav(items, classes_mod)
-	+b('aside').page-nav(class=classes_mod)
-		+e('ul').list
+	+b('aside').page-nav(class=classes_mod id='pageNav')
+		+e('ul').list.nav
 			each item in items
 				+e('li').list-item
-					+e('a').link(href=`${item.href}`) #{item.name}
+					+e('a').link.nav-link(href=`${item.href}`) #{item.name}

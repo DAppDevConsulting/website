@@ -18,38 +18,40 @@
     transition: transform $primary-transition;
     background-color: $black;
     z-index: 0;
-
   }
 
   &__container{
     width: 100%;
-    max-width: 1288px;
+    max-width: 1162px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
+    justify-content: flex-start;
+    padding: 0 15px;
     height: $header-height;
   }
 
   &__logo{
     display: block;
-    max-width: 240px;
+    max-width: 121px;
+    margin-right: 47px;
+    flex-shrink: 0;
   }
 
   &__menu-toggle{
     display: flex;
     align-items: center;
     color: #fff;
-    font-size: 18px;
-    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
   }
 
   &__menu-ico{
     position: relative;
-    width: 31px;
-    height: 30px;
+    width: 26px;
+    height: 25px;
     background: none;
     border: none;
     cursor: pointer;
@@ -59,10 +61,10 @@
       position: absolute;
       left: 0;
       width: 100%;
-      height: 4px;
+      height: 2px;
       @include center(y);
       background-color: $main;
-      border-radius: 4px;
+      border-radius: 2px;
 
       &::before,
       &::after{
@@ -80,10 +82,10 @@
       }
 
       &::before{
-        transform: translateY(-10px);
+        transform: translateY(-8px);
       }
       &::after{
-        transform: translateY(10px);
+        transform: translateY(8px);
       }
     }
 
@@ -97,11 +99,12 @@
     a{
       display: inline-block;
       position: relative;
-      font-weight: 600;
-      color: #fff;
+      font-weight: 400;
+      color: $main;
       text-decoration: none;
       font-size: 22px;
-      line-height: 1.3;
+      line-height: 1;
+      text-transform: uppercase;
 
       &::after{
         content: '';
@@ -109,8 +112,7 @@
         left: 0;
         bottom: 0;
         width: 100%;
-        height: 4px;
-        border-radius: 4px;
+        height: 1px;
         background-color: $main;
         transform: translateY(13px);
         opacity: 0;
@@ -143,6 +145,20 @@
 
   @include mq_max(1023){
 
+    &__container{
+      height: 67px;
+      justify-content: space-between;
+    }
+
+    &__btn{
+      margin-left: auto;
+      margin-right: 40px;
+    }
+
+    &__logo{
+      margin-right: 0;
+    }
+
     &__nav{
       text-align: center;
       z-index: 10;
@@ -167,54 +183,33 @@
         width: 100%;
         text-align: center;
         opacity: 0;
-        transform: scale(1.1) translate(-14px,-30px);
+        transform: scale(1.1) translateX(-28px);
 
         &:not(:first-child){
           margin-top: 30px;
         }
-
-        &:last-child{
-          transform: none;
-        }
       }
 
       a{
-        font-size: 32px;
+        font-size: 22px;
       }
 
     }
 
-    &__nav-lang{
-      /*position: absolute;
-      bottom: 120px;*/
-      padding-top: 20px;
+  }
 
-      li{
-        display: inline-block;
-        width: auto;
-        transform: none;
-
-        &:not(:first-child){
-          margin-left: 50px;
-          margin-top: 0;
-        }
-      }
-
-      a{
-        font-size: 18px;
-      }
+  @include mq_max(500){
+    &__btn{
+      font-size: 14px;
+      font-weight: 700;
+      margin-right: 15px;
+      padding: 0;
+      border: none;
     }
 
-    &__logo{
-      width: 57px;
-      overflow: hidden;
-
-      svg{
-        max-width: none;
-        width: 320px;
-      }
+    &__menu-toggle{
+      font-size: 0;
     }
-
   }
 
   @include mq(1024){
@@ -222,23 +217,25 @@
       transform: translate3d(0,0,0);
     }
 
+    &__btn{
+      min-width: 155px;
+      margin-left: auto;
+    }
+
     &__nav{
-      padding-left: 50px;
       flex-shrink: 0;
 
       li{
         display: inline-block;
-        padding: 4px 16px;
-        border-radius: 16px;
+        padding: 4px 0;
         transition: background-color 0.4s ease-out;
 
         &:not(:first-child){
-          margin-left: 10px;
+          margin-left: 68px;
         }
 
         a{
-          font-size: 18px;
-          color: #fff;
+          font-size: 14px;
         }
       }
 
@@ -272,39 +269,8 @@
   &_sticky{
     position: fixed;
 
-    /*@supports (position: sticky) {
-      position: sticky;
-    }*/
-
-    background-color: #fff;
-    box-shadow: 0 2px 15px 0 rgba(0,0,0,0.25);
+    background-image: linear-gradient(to top, rgba(28,14,43,0.1), #040412);
     animation: fadeInDown 0.7s;
-
-    .m-header{
-
-      &__container{
-        height: 75px;
-      }
-
-      &__logo{
-        .word-icon{
-          fill: #31313A;
-        }
-        .word-software{
-          fill: #443EC7;
-        }
-      }
-
-      @include mq(1024){
-        &__nav{
-          li{
-            a{
-              color: $black-light;
-            }
-          }
-        }
-      }
-    }
 
   }
   //END mods
@@ -321,6 +287,10 @@
     }
 
     .m-header{
+
+      &__btn{
+        opacity: 0;
+      }
 
       &__nav{
         visibility: visible;
@@ -341,10 +311,6 @@
 
           &:nth-child(4){
             transition-delay: 350ms, 350ms;
-          }
-
-          &:nth-child(5){
-            transition-delay: 400ms, 400ms;
           }
 
         }

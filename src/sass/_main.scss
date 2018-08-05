@@ -18,9 +18,10 @@ body {
     size: 16px;
     family: $primary-font;
   }
-  background-color: #fff;
+  background-image: linear-gradient(to bottom, #1c0e2b, #040412);
   color: $text-color;
   @include font-smoothing;
+  position: relative;
 }
 
 html.noscroll,

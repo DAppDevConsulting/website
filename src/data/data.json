@@ -2,12 +2,16 @@
   "hackaton": {
     "sidebar": [
       {
-        "href": "#main",
+        "href": "#home",
         "name": "Home"
       },
       {
-        "href": "#speakers",
-        "name": "Speakers"
+        "href": "#about",
+        "name": "About"
+      },
+      {
+        "href": "#mentors",
+        "name": "Mentors"
       },
       {
         "href": "#program",
@@ -18,12 +22,16 @@
         "name": "Tickets"
       },
       {
-        "href": "#faq",
-        "name": "FAQ"
+        "href": "#partners",
+        "name": "Partners"
       },
       {
-        "href": "#contacts",
-        "name": "Contacts"
+        "href": "#venue",
+        "name": "Venue"
+      },
+      {
+        "href": "#faq",
+        "name": "Faq"
       }
     ],
     "numbers": [
@@ -75,15 +83,43 @@
     "mentors": [
       {
         "name": "Fabian Vogelsteller",
-        "photo": "fabian_vogelsteller.jpg",
-        "description": "Ethereum Project (Berlin)",
+        "photo": "dmytrii_kulbaka.jpg",
+        "description": "Alex Frias is co-founder and president of GettyImages (Track Marketing Group)",
         "github": "https://github.com/frozeman",
         "linkedin": "https://www.linkedin.com/in/fabian-vogelsteller-46365042/"
       },
       {
         "name": "Michael Wuehler",
-        "photo": "michael_wuehler.jpg",
-        "description": "ConsenSys (NYC)",
+        "photo": "dan_finlay.jpg",
+        "description": "Alex Frias is co-founder and president",
+        "github": "https://github.com/wuehler",
+        "linkedin": "https://www.linkedin.com/in/michael-wuehler-87b148/"
+      },
+      {
+        "name": "Fabian Vogelsteller",
+        "photo": "dmytrii_kulbaka.jpg",
+        "description": "Alex Frias is co-founder and president of GettyImages (Track Marketing Group)",
+        "github": "https://github.com/frozeman",
+        "linkedin": "https://www.linkedin.com/in/fabian-vogelsteller-46365042/"
+      },
+      {
+        "name": "Michael Wuehler",
+        "photo": "dan_finlay.jpg",
+        "description": "Alex Frias is co-founder and president of GettyImages (Track Marketing Group)",
+        "github": "https://github.com/wuehler",
+        "linkedin": "https://www.linkedin.com/in/michael-wuehler-87b148/"
+      },
+      {
+        "name": "Fabian Vogelsteller",
+        "photo": "dmytrii_kulbaka.jpg",
+        "description": "Alex Frias is co-founder and president of GettyImages (Track Marketing Group)",
+        "github": "https://github.com/frozeman",
+        "linkedin": "https://www.linkedin.com/in/fabian-vogelsteller-46365042/"
+      },
+      {
+        "name": "Michael Wuehler",
+        "photo": "dan_finlay.jpg",
+        "description": "Alex Frias is co-founder and president of GettyImages (Track Marketing Group)",
         "github": "https://github.com/wuehler",
         "linkedin": "https://www.linkedin.com/in/michael-wuehler-87b148/"
       }
