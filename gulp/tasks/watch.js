@@ -5,6 +5,6 @@ gulp.task('watch',
     ['copy:watch',
     'pug:watch',
     'sprite:svg:watch',
-    'webpack:watch',
+    'js:watch',
     'sass:watch'
 ]);

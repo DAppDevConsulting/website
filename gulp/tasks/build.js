@@ -8,7 +8,7 @@ function build(cb) {
         'sprite:svg',
         'sass',
         'pug',
-        'webpack',
+        'js',
         'copy',
         cb
     );
