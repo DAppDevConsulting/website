@@ -1,6 +1,7 @@
 .hero {
   overflow: hidden;
   min-height: 350px;
+  height: 100vh;
   position: relative;
 
   padding-top: 100px;
@@ -57,7 +58,6 @@
 
   @include mq(1024) {
     min-height: 600px;
-    height: 100vh;
     padding-top: 90px + $header-height;
     padding-left: 70px;
 
