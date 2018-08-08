@@ -1,11 +1,11 @@
 .m-footer {
   position: relative;
   z-index: 2;
-  padding: 60px 0;
   overflow: hidden;
 
   &__container {
     max-width: 1162px;
+    padding: 60px 20px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
