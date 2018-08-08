@@ -3,8 +3,7 @@ var plumber = require('gulp-plumber');
 var svgmin = require('gulp-svgmin');
 var svgStore = require('gulp-svgstore');
 var rename = require('gulp-rename');
-var cheerio = require('gulp-cheerio');
-var config = require('../../config');
+var config = require('../config');
 
 gulp.task('sprite:svg', function () {
   return gulp

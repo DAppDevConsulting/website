@@ -51,4 +51,5 @@ block content
 			+e.tiles
 				each img in hackaton.pastEvents.photos
 					+e.tiles-item
-						+e('img').img(src=`../img/past-events/${img}`)
+						+e.img-wrap
+							+e('img').img(src=`../img/past-events/${img}`)

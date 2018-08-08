@@ -1,5 +1,23 @@
 {
   "hackaton": {
+    "headerMenu": [
+      {
+        "href": "#0",
+        "name": "Consulting"
+      },
+      {
+        "href": "#0",
+        "name": "Conference"
+      },
+      {
+        "href": "#0",
+        "name": "Hackaton"
+      },
+      {
+        "href": "#0",
+        "name": "Jobs"
+      }
+    ],
     "sidebar": [
       {
         "href": "#home",
@@ -234,7 +252,7 @@
       "subtitle": "20.10.2018 - 21.10.2018",
       "video": "HbQDMTrGcmA",
       "photos": [
-        "#0",
+        "IMG_1406_edited.jpg",
         "#0",
         "#0",
         "#0"

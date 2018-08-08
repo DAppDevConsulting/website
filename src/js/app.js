@@ -1,10 +1,7 @@
 import "bootstrap/js/dist/util";
-import "bootstrap/js/dist/modal";
 import "bootstrap/js/dist/scrollspy";
 import "bootstrap/js/dist/collapse";
 import "jquery-easing";
-
-
 
 $(document).ready(function () {
 
@@ -92,26 +89,26 @@ $(document).ready(function () {
   })(jQuery);
   // END Header scroll
 
+  const initMap = () => {
+    const mapContainer = document.querySelector('.contacts__map');
+
+    if (mapContainer) {
+      const izo = { lat: 50.4765582, lng: 30.503495816 };
+
+      const mapOptions = {
+        zoom: 15,
+        center: izo
+      };
+
+      const map = new google.maps.Map(mapContainer, mapOptions);
+
+      const marker = new google.maps.Marker({
+        position: izo,
+        map
+      })
+    }
+  };
+
+  initMap();
+
 });
-
-const initMap = () => {
-  const mapContainer = document.querySelector('.contacts__map');
-
-  if (mapContainer) {
-    const izo = { lat: 50.4765582, lng: 30.503495816 };
-
-    const mapOptions = {
-      zoom: 15,
-      center: izo
-    };
-
-    const map = new google.maps.Map(mapContainer, mapOptions);
-
-    const marker = new google.maps.Marker({
-      position: izo,
-      map
-    })
-  }
-};
-
-initMap();

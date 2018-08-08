@@ -1,7 +1,5 @@
 var gulp        = require('gulp');
-var config      = require('../config');
-var htmlhint    = require('gulp-htmlhint');
-var sassLint    = require('gulp-sass-lint')
+var sassLint    = require('gulp-sass-lint');
 var prettier    = require('gulp-prettier');
 var git         = require('gulp-git');
 
@@ -20,14 +18,6 @@ gulp.task('prettier', function() {
     .pipe(git.add({args: '-u'}))
 });
 
-
-gulp.task('lint:html', function() {
-  return gulp.src(config.dest.html + "/*.html")
-  	.pipe(gitStaged())
-    .pipe(htmlhint('.htmlhintrc'))
-    .pipe(htmlhint.failReporter());
-});
-
 gulp.task('lint:sass', function() {
   return gulp.src('src/sass/**/*.s+(a|c)ss')
     .pipe(sassLint())
@@ -37,6 +27,5 @@ gulp.task('lint:sass', function() {
 
 gulp.task('lint', [
     'prettier',
-    'lint:sass',
-    'lint:html'
+    'lint:sass'
 ]);

@@ -6,11 +6,9 @@ mixin m-header(classes)
 			+e('a')(href='#page-top').logo
 				include ../../img/m-logo.svg
 			+e('ul').nav
-				+e('li'): a(href='#0') Consulting
-				+e('li'): a(href='#0') Conference
-				+e('li'): a(href='#0') Hackaton
-				+e('li'): a(href='#0') Jobs
-			+e('a').btn.btn_outline Get ticket
+				each item in hackaton.headerMenu
+					+e('li'): a(href=`${item.href}`) #{item.name}
+			+e('a').btn.btn_outline(href='#0') Get ticket
 			+e('label').menu-toggle.js-menu-toggle.desktop-hidden(for="menustate") Menu
 				+e('span').menu-ico: span
 
