@@ -59,7 +59,10 @@
   @include mq(1024) {
     min-height: 600px;
     padding-top: 90px + $header-height;
-    padding-left: 70px;
+
+    .row{
+      padding-left: 50px;
+    }
 
     &__title {
       font-size: 64px;
