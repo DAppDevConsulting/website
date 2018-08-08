@@ -1,16 +1,26 @@
 .page-nav {
   display: none;
 
-  @include mq(1280){
+  @include mq(1100){
+    position: fixed;
     display: block;
+    width: 1332px;
+    padding: 100px 20px;
+    left: 0;
+    right: 0;
     top: 50%;
     transform: translateY(-50%);
-    position: fixed;
+    margin: auto;
     z-index: 50;
-    right: calc(50% + 560px);
-    text-align: right;
+    text-align: left;
+
+    /*right: calc(50% + 560px);*/
 
     &__list {
+      display: inline-block;
+      text-align: right;
+      min-width: 70px;
+
       &-item {
         &:not(:first-child) {
           margin-top: 10px;
