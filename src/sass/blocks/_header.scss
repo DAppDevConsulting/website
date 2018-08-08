@@ -159,6 +159,10 @@
 
   @include mq_max(1023){
 
+    &::after {
+      opacity: 1;
+    }
+
     &__container{
       height: 67px;
       justify-content: space-between;

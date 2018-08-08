@@ -44,8 +44,8 @@ block content
 		+faq()
 
 	+section('Past events', !1, !1, 'past-events')
-		+b.full-video
-			a(href=`${hackaton.pastEvents.video}`)
+		+b.full-video._past-events
+			iframe(src=`https://www.youtube.com/embed/${hackaton.pastEvents.video}`, frameborder='0', allow='autoplay; encrypted-media', allowfullscreen='')
 		+b.img-tiles
 			+e('h3').title #{hackaton.pastEvents.title}<br/>#{hackaton.pastEvents.subtitle}
 			+e.tiles
