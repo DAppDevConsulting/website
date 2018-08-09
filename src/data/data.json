@@ -36,7 +36,7 @@
         "name": "Mentors"
       },
       {
-        "href": "#Agenda",
+        "href": "#agenda",
         "name": "Agenda"
       },
       {
@@ -215,9 +215,23 @@
         "img": "cardano.png"
       }
     ],
+    "techpartners": [
+      {
+        "href": "#0",
+        "img": "ambrous.png"
+      },
+      {
+        "href": "#0",
+        "img": "aragon.png"
+      },
+      {
+        "href": "#0",
+        "img": "berkeley.png"
+      }
+    ],
     "contributors": [
       {
-        "href": "",
+        "href": "#0",
         "img": "ambrous.png"
       },
       {
@@ -257,7 +271,7 @@
         "img": "maker.png"
       }
     ],
-    "pastEvents": {
+    "did": {
       "title": "DApp DEV Ethereum Conference 2018",
       "subtitle": "by developers for developers",
       "video": "HbQDMTrGcmA",
