@@ -8,7 +8,7 @@ mixin m-header(classes)
 			+e('ul').nav
 				each item in hackaton.headerMenu
 					+e('li'): a(href=`${item.href}`) #{item.name}
-			+e('a').btn.btn_outline(href='#0') Get ticket
+			+e('a').btn.btn_outline(href='https://2event.com/events/1462060') Get ticket
 			+e('label').menu-toggle.js-menu-toggle.desktop-hidden(for="menustate") Menu
 				+e('span').menu-ico: span
 
