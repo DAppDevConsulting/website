@@ -50,6 +50,10 @@
       {
         "href": "#faq",
         "name": "FAQ"
+      },
+      {
+        "href": "#did",
+        "name": "What we did"
       }
     ],
     "numbers": [
@@ -88,8 +92,36 @@
             "time": "11:00 - 11:30"
           },
           {
+            "title": "Hack",
+            "time": "11:30 - 00:00"
+          },
+          {
+            "title": "Workshop: Blockchains for beginners",
+            "time": "12:00 - 12:30"
+          },
+          {
+            "title": "Workshop: Grow Open Source by Gitcoin",
+            "time": "12:30 - 13:00"
+          },
+          {
             "title": "Lunch",
             "time": "13:00 - 14:00"
+          },
+          {
+            "title": "Workshop: Building real dapps on AMB-NET by Roman Shabanov",
+            "time": "15:00 - 15:30"
+          },
+          {
+            "title": "Workshop: Ethereum Name Service by Dean Eigenmann",
+            "time": "15:30 - 16:00"
+          },
+           {
+            "title": "Workshop: STATUS by Roman Volosovskyi",
+            "time": "17:00 - 17:30"
+          },
+          {
+            "title": "Workshop: Anthropology driven token design 'Token vs Religion' by Sergiej Rewiakin",
+            "time": "17:30 - 18:00"
           },
           {
             "title": "Dinner",
@@ -102,16 +134,48 @@
         "subtitle": "15 September",
         "events": [
           {
+            "title": "Hack",
+            "time": "00:00 - 16:00"
+          },
+          {
             "title": "Morning coffee",
             "time": "09:00 - 10:00"
+          },
+          {
+            "title": "Workshop: DApp DEV Berlin Campus by Anna Makota",
+            "time": "11:00 - 11:30"
+          },
+          {
+            "title": "Workshop: MakerDAO by Bartek Kiepuszewski",
+            "time": "11:30 - 12:00"
+          },
+          {
+            "title": "Workshop: Internet of Blockchains with Cosmos Network",
+            "time": "12:00 - 12:30"
           },
           {
             "title": "Lunch",
             "time": "13:00 - 14:00"
           },
           {
+            "title": "Workshop: The Castle Project by Jérôme de Tychey",
+            "time": "14:20 - 14:30"
+          },
+          {
+            "title": "Workshop: We are hiring by Pavlo Makarov",
+            "time": "14:30 - 15:00"
+          },
+          {
+            "title": "Workshop: Pitching with a purpose by Leila Alieva",
+            "time": "15:00 - 15:30"
+          },
+          {
             "title": "Pitching & Awards",
             "time": "16:00 - 18:30"
+          },
+          {
+            "title": "Drinks",
+            "time": "20:00 - 22:00"
           }
         ]
       }
@@ -147,7 +211,7 @@
       },
       {
         "name": "Anna Makota",
-        "photo": "anna.jpg",
+        "photo": "makota.jpg",
         "description": "Strategy & Communication at DApp DEV",
         "github": "",
         "linkedin": "https://www.linkedin.com/in/anna-makota-a3447929/"
@@ -200,6 +264,13 @@
         "description": "Co-founder at AdEx network",
         "github": "https://github.com/Ivshti",
         "linkedin": "https://www.linkedin.com/in/ivo-georgiev-8298b678/"
+      },
+      {
+        "name": "Dmitry Selin",
+        "photo": "selin.jpg",
+        "description": "CTO at AURA",
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/dmitry-selin/"
       },
       {
         "name": "coming soon",
