@@ -2,6 +2,7 @@ import "bootstrap/js/dist/util";
 import "bootstrap/js/dist/scrollspy";
 import "bootstrap/js/dist/collapse";
 import "jquery-easing";
+import runAnalytics from "./analytics";
 
 $(document).ready(function () {
 
@@ -110,5 +111,7 @@ $(document).ready(function () {
   };
 
   initMap();
+
+  runAnalytics();
 
 });

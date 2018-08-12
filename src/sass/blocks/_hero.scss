@@ -13,12 +13,12 @@
     content: '';
     position: fixed;
     bottom: 0;
-    right: 5%;
+    right: 0;
     background-image: url($img + 'hero-bg.png');
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: 50% 100%;
-    width: 70%;
+    width: 100%;
     max-width: 800px;
     height: 100%;
     opacity: .7;
@@ -59,6 +59,12 @@
   @include mq(1024) {
     min-height: 600px;
     padding-top: 90px + $header-height;
+
+    &::after{
+      right: 5%;
+      width: 70%;
+      max-width: 800px;
+    }
 
     .row{
       padding-left: 50px;

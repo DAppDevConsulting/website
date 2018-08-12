@@ -6,8 +6,13 @@
     color: #fff;
     margin-bottom: 50px;
 
+    a:not(:last-child),
     p:not(:last-child){
       margin-bottom: 16px;
+    }
+
+    a{
+      display: inline-block;
     }
   }
 
