@@ -1,0 +1,30 @@
+.canceled {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__text {
+    transform: rotate(-10deg);
+    text-transform: uppercase;
+    font-family: $secondary-font;
+    letter-spacing: .05em;
+    font-weight: 700;
+    font-size: 34px;
+    padding: .5em 1em;
+    border: .2em solid #fff;
+    color: #fff;
+  }
+
+  @include mq(768) {
+    &__text {
+      font-size: 72px;
+    }
+  }
+}

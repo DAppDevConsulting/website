@@ -1,5 +1,7 @@
 extends layouts/_layout_landing
 block content
+	+b.canceled
+		+e('span').text Canceled
 	+b('section').hero(id='home')
 		.row
 			+e.content
