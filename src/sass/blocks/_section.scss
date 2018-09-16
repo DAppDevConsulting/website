@@ -25,10 +25,32 @@
   }
 
   &_about-bg{
-    background-image: url($img + 'about-bg.png');
-    background-repeat: no-repeat;
-    background-size: 962px auto;
-    background-position: 50% 90px;
+    position: relative;
+
+    .row{
+      position: relative;
+      z-index: 1;
+    }
+
+    &::before{
+      content: '';
+      position: absolute;
+      width: 962px;
+      height: 543px;
+      left: 50%;
+      top: 65%;
+      transform: translate(-50%, -50%);
+      background-image: url($img + 'about-bg.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: 50% 0;
+    }
+  }
+
+  &__container{
+    &-pt{
+      padding-top: 30px;
+    }
   }
 
   @include mq(1024){
@@ -44,6 +66,12 @@
 
     &_contributors{
       padding-top: 0;
+    }
+
+    &__container{
+      &-pt{
+        padding-top: 60px;
+      }
     }
   }
 

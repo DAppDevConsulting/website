@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="65px" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>campus</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Slide-1-Copy-5" transform="translate(-864.000000, -492.000000)" stroke="#73F5E2" stroke-width="2">
+            <g id="campus" transform="translate(865.500000, 493.014923)">
+                <path d="M62,11 L62,41" id="Shape"></path>
+                <polyline id="Shape" points="55 0 62 0 62 7"></polyline>
+                <polyline id="Shape" points="0 14 0 0 51 0"></polyline>
+                <path d="M3,36 L59,36" id="Shape"></path>
+                <polyline id="Shape" points="0 41 0 20 8 12 19 23 33 9 43 19 62 0"></polyline>
+                <polyline id="Shape" points="13 53 20 57 20 57 28 53"></polyline>
+                <path d="M55,53 L62,57 L62,59 C62,60.66 61,62 60,62 L2,62 C1,62 0,60.66 0,59 L0,57 L7,53" id="Shape"></path>
+                <polyline id="Shape" points="34 53 42 57 42 57 49 53"></polyline>
+                <path d="M15,47.5 C15,51 13,54 10,54 C7,54 5,51 5,47.5 C5,44 6,42 10,42 C14,42 15,44 15,47.5 Z" id="Shape"></path>
+                <path d="M36,47.5 C36,51 34,54 31,54 C28,54 26,51 26,47.5 C26,44 27,42 31,42 C35,42 36,44 36,47.5 Z" id="Shape"></path>
+                <path d="M57,47.5 C57,51 55,54 52,54 C49,54 47,51 47,47.5 C47,44 48,42 52,42 C56,42 57,44 57,47.5 Z" id="Shape"></path>
+                <path d="M20,57 L20,60" id="Shape"></path>
+                <path d="M42,57 L42,60" id="Shape"></path>
+                <path d="M7,32 L15,32" id="Shape"></path>
+                <path d="M7,28 L15,28" id="Shape"></path>
+                <path d="M17,32 L25,32" id="Shape"></path>
+                <path d="M17,28 L25,28" id="Shape"></path>
+                <path d="M27,32 L35,32" id="Shape"></path>
+                <path d="M27,28 L35,28" id="Shape"></path>
+                <path d="M27,24 L35,24" id="Shape"></path>
+                <path d="M27,20 L35,20" id="Shape"></path>
+                <path d="M37,32 L45,32" id="Shape"></path>
+                <path d="M37,28 L45,28" id="Shape"></path>
+                <path d="M37,24 L45,24" id="Shape"></path>
+                <path d="M47,32 L55,32" id="Shape"></path>
+                <path d="M47,28 L55,28" id="Shape"></path>
+                <path d="M47,24 L55,24" id="Shape"></path>
+                <path d="M47,20 L55,20" id="Shape"></path>
+                <path d="M7,24 L15,24" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

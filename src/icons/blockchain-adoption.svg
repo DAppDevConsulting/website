@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="65px" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>blockchain-adoption</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Slide-1-Copy-4" transform="translate(-1068.000000, -484.000000)" stroke="#73F5E2" stroke-width="2">
+            <g id="blockchain-adoption" transform="translate(1069.369648, 485.726295)">
+                <polyline id="Shape" points="34 21 34 30 30 34 30 41"></polyline>
+                <path d="M38,63 L38,33" id="Shape"></path>
+                <path d="M30,34 L30,25" id="Shape"></path>
+                <path d="M20,63 L20,39" id="Shape"></path>
+                <path d="M16,41 L16,39" id="Shape"></path>
+                <path d="M12,41 L12,39" id="Shape"></path>
+                <path d="M24,31 L24,29" id="Shape"></path>
+                <path d="M34,19 L34,17" id="Shape"></path>
+                <path d="M38,31 L38,29" id="Shape"></path>
+                <path d="M38,27 L38,25" id="Shape"></path>
+                <path d="M0,15 L0,49 C0,50.6568542 1.34314575,52 3,52 L27,52" id="Shape"></path>
+                <path d="M4,6 L3,6 C1.34314575,6 2.22044605e-16,7.34314575 0,9 C-2.22044605e-16,10.6568542 1.34314575,12 3,12 L58,12 L58,49" id="Shape"></path>
+                <path d="M20,32 L11,32" id="Shape"></path>
+                <path d="M20,32 L20,21" id="Shape"></path>
+                <path d="M17,24 L15,24" id="Shape"></path>
+                <path d="M17,28 L15,28" id="Shape"></path>
+                <path d="M34,49 L34,47" id="Shape"></path>
+                <path d="M34,45 L34,43" id="Shape"></path>
+                <path d="M34,41 L34,39" id="Shape"></path>
+                <rect id="Rectangle-path" x="24" y="4" width="38" height="4"></rect>
+                <polyline id="Shape" points="52 4 52 0 4 0 4 8 21 8"></polyline>
+                <path d="M7,4 L9,4" id="Shape"></path>
+                <path d="M11,4 L13,4" id="Shape"></path>
+                <path d="M15,4 L17,4" id="Shape"></path>
+                <polyline id="Shape" points="24 63 24 44 26 44 30 48 30 59"></polyline>
+                <path d="M30,61 L30,63" id="Shape"></path>
+                <polyline id="Shape" points="62 11 62 52 33 52"></polyline>
+                <polyline id="Shape" points="38 42 42 38 42 23"></polyline>
+                <path d="M62,44 L54,44 C52.8954305,44 52,43.1045695 52,42 L52,37" id="Shape"></path>
+                <path d="M62,20 L54,20 C52.8954305,20 52,20.8954305 52,22 L52,35" id="Shape"></path>
+                <path d="M20,44 L15,44" id="Shape"></path>
+                <path d="M4,49 L4,19" id="Shape"></path>
+                <path d="M4,17 L4,15" id="Shape"></path>
+                <path d="M42,38 L47,38" id="Shape"></path>
+                <path d="M45,34 L47,34" id="Shape"></path>
+                <polyline id="Shape" points="24 41 24 36 20 32"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

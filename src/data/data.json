@@ -464,7 +464,76 @@
         "4.jpg",
         "6.jpg",
         "9.jpg",
-        "2.jpg"      ]
+        "2.jpg"
+      ]
     }
+  },
+  "home": {
+    "sidebar": [
+      {
+        "href": "#home",
+        "name": "Home"
+      },
+      {
+        "href": "#about",
+        "name": "About"
+      },
+      {
+        "href": "#easy-tcr",
+        "name": "EasyTCR"
+      },
+      {
+        "href": "#business",
+        "name": "Business"
+      },
+      {
+        "href": "#ecosystem",
+        "name": "Ecosystem"
+      }
+    ],
+    "business": [
+      {
+        "icon": "token-economy",
+        "title": "Token economy"
+      },
+      {
+        "icon": "smart-contracts",
+        "title": "Smart contracts audit & security"
+      },
+      {
+        "icon": "ico-assistance",
+        "title": "ICO assistance"
+      },
+      {
+        "icon": "talent-acquisition",
+        "title": "Talent acquisition"
+      },
+      {
+        "icon": "blockchain-adoption",
+        "title": "Blockchain adoption"
+      }
+    ],
+    "ecosystem": [
+      {
+        "icon": "conference",
+        "title": "Conference"
+      },
+      {
+        "icon": "hackaton",
+        "title": "Hackaton"
+      },
+      {
+        "icon": "workshops",
+        "title": "Workshops"
+      },
+      {
+        "icon": "campus",
+        "title": "Campus"
+      },
+      {
+        "icon": "community-development",
+        "title": "Community development"
+      }
+    ]
   }
 }

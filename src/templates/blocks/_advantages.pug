@@ -1,0 +1,8 @@
+mixin advantages(items, classes_mod)
+	+b.tiles._advantages(class=classes_mod)
+		each item in items
+			+e.item
+				+b.advantage
+					+e.icon
+						+icon(`${item.icon}`)
+					+e('h3').title #{item.title}

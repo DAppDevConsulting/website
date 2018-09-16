@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="65px" viewBox="0 0 64 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>token-economy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Slide-1-Copy-4" transform="translate(-240.000000, -484.000000)" stroke="#73F5E2" stroke-width="2">
+            <g id="token-economy" transform="translate(240.000000, 485.726295)">
+                <path d="M32,24 L32,45" id="Shape"></path>
+                <path d="M32,0 L32,19" id="Shape"></path>
+                <path d="M32,62 L32,47" id="Shape"></path>
+                <path d="M2,24 L19,24" id="Shape"></path>
+                <path d="M45,38 L63,38" id="Shape"></path>
+                <path d="M32,30 L35,30 C36.6568542,30 38,28.6568542 38,27 C38,25.3431458 36.6568542,24 35,24 L25,24" id="Shape"></path>
+                <path d="M32,30 L38,30 C40.209139,30 42,31.790861 42,34 C42,36.209139 40.209139,38 38,38 L25,38" id="Shape"></path>
+                <path d="M63,30 L45,30" id="Shape"></path>
+                <path d="M47,10 L4,10" id="Shape"></path>
+                <path d="M60,52 L24,52" id="Shape"></path>
+                <path d="M48,33 L48,35" id="Shape"></path>
+                <path d="M52,33 L52,35" id="Shape"></path>
+                <path d="M56,33 L56,35" id="Shape"></path>
+                <path d="M28,38 L28,13" id="Shape"></path>
+                <path d="M32,62 C26.48,62 22,49 22,38 L6,38" id="Shape"></path>
+                <path d="M64,52 L62,52" id="Shape"></path>
+                <path d="M2,10 L0,10" id="Shape"></path>
+                <path d="M35,18 L37,18" id="Shape"></path>
+                <path d="M39,18 L41,18" id="Shape"></path>
+                <path d="M43,22 L45,22" id="Shape"></path>
+                <path d="M1.26,27 C3.37186095,10.7968378 17.6981985,-0.985035753 34.0042212,0.0713959055 C50.3102438,1.12782756 62.9965531,14.6597916 63,31" id="Shape"></path>
+                <path d="M62.94,33 C61.8985098,49.7275251 47.7506516,62.5983429 30.9994653,62.0574587 C14.2482791,61.5165744 0.960205293,47.7598692 0.999910852,31 L12,31" id="Shape"></path>
+                <path d="M8,42 L10,42" id="Shape"></path>
+                <path d="M15,48 L29,48" id="Shape"></path>
+                <path d="M43,18 L60,18" id="Shape"></path>
+                <path d="M4,18 L23,18" id="Shape"></path>
+                <path d="M49.13,47 C45.63,56 39.27,62 32,62 C21,62 12,48.12 12,31 C12,13.88 21,0 32,0 C43,0 52,14 52,30" id="Shape"></path>
+                <path d="M60,44 L35,44" id="Shape"></path>
+                <path d="M35,48 L37,48" id="Shape"></path>
+                <path d="M39,48 L41,48" id="Shape"></path>
+                <path d="M21,24 L23,24" id="Shape"></path>
+                <path d="M21,28 L23,28" id="Shape"></path>
+                <path d="M21,32 L23,32" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

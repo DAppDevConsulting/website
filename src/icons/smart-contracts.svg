@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="65px" viewBox="0 0 60 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>smart-contracts</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Slide-1-Copy-4" transform="translate(-451.000000, -485.000000)" stroke="#73F5E2" stroke-width="2">
+            <g id="smart-contracts" transform="translate(451.000000, 486.226295)">
+                <polyline id="Shape" points="13 19 13 0 19 0"></polyline>
+                <polyline id="Shape" points="30 0 51 0 59 8 59 62 18 62"></polyline>
+                <polygon id="Shape" points="27 0 27 15 23 11 19 15 19 0"></polygon>
+                <path d="M30,54 L54,54" id="Shape"></path>
+                <path d="M34,50 L36,50" id="Shape"></path>
+                <path d="M30,50 L32,50" id="Shape"></path>
+                <path d="M38,50 L54,50" id="Shape"></path>
+                <path d="M52,58 L54,58" id="Shape"></path>
+                <polyline id="Shape" points="59 8 51 8 51 0"></polyline>
+                <path d="M38,38 L54,38" id="Shape"></path>
+                <path d="M30,26 L54,26" id="Shape"></path>
+                <path d="M30,22 L54,22" id="Shape"></path>
+                <path d="M30,34 L54,34" id="Shape"></path>
+                <path d="M30,30 L54,30" id="Shape"></path>
+                <path d="M54,14 L42,14" id="Shape"></path>
+                <path d="M6,54 L20,54" id="Shape"></path>
+                <path d="M6,50 L20,50" id="Shape"></path>
+                <path d="M8,44.91 C2.87164778,42.5594236 0.0730401139,36.9540686 1.27599588,31.4424352 C2.47895164,25.9308017 7.35861667,22.0012879 13,22.0012879 C18.6413833,22.0012879 23.5210484,25.9308017 24.7240041,31.4424352 C25.9269599,36.9540686 23.1283522,42.5594236 18,44.91" id="Shape"></path>
+                <polyline id="Shape" points="17 50 17 58 14 62 12 62 9 58 9 50"></polyline>
+                <path d="M6,58 L20,58" id="Shape"></path>
+                <polyline id="Shape" points="18 34 13 34 13 50"></polyline>
+                <path d="M10,34 L8,34" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

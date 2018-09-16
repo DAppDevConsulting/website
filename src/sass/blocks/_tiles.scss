@@ -109,6 +109,36 @@
       }
     }
   }
+
+  &_advantages {
+    margin: -40px auto;
+
+    .tiles {
+      &__item {
+        width: 130px;
+        margin: 40px auto;
+      }
+
+    }
+
+    @include mq(768){
+      margin-left: -30px;
+      margin-right: -30px;
+
+      .tiles{
+        &__item {
+          flex-shrink: 0;
+          margin-left: 30px;
+          margin-right: 30px;
+        }
+      }
+    }
+
+    @include mq(1024){
+      flex-wrap: nowrap;
+      justify-content: space-between;
+    }
+  }
   //END mods
 
 }

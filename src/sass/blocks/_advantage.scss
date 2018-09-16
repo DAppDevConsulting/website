@@ -1,0 +1,23 @@
+.advantage {
+  text-align: center;
+  color: $main;
+
+  &__icon{
+
+
+    svg{
+      max-width: 63px;
+      max-height: 63px;
+    }
+  }
+
+  &__title{
+    font-size: 12px;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

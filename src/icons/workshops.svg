@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="65px" viewBox="0 0 64 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>workshops</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Slide-1-Copy-5" transform="translate(-656.000000, -492.000000)" stroke="#73F5E2" stroke-width="2">
+            <g id="workshops" transform="translate(657.000000, 493.014923)">
+                <polyline id="Shape" points="21 8 58 8 58 28 21 28"></polyline>
+                <circle id="Oval" stroke-linejoin="round" cx="11" cy="5" r="5"></circle>
+                <path d="M6,27 L6,36 L0,36 L0,21 C-8.8817842e-16,17.1340068 3.13400675,14 7,14 L34,14 L34,20 L18,20 L18,36 L62,36 L62,4 L19,4" id="Shape"></path>
+                <path d="M21,32 L59,32" id="Shape" stroke-linejoin="round"></path>
+                <path d="M55,53 L62,57 L62,59 C62,60.66 61,62 60,62 L2,62 C1,62 0,60.66 0,59 L0,57 L7,53" id="Shape"></path>
+                <polyline id="Shape" points="34 53 42 57 42 57 49 53"></polyline>
+                <polyline id="Shape" points="13 53 20 57 20 57 28 53"></polyline>
+                <path d="M15,47.5 C15,51 13,54 10,54 C7,54 5,51 5,47.5 C5,44 6,42 10,42 C14,42 15,44 15,47.5 Z" id="Shape"></path>
+                <path d="M36,47.5 C36,51 34,54 31,54 C28,54 26,51 26,47.5 C26,44 27,42 31,42 C35,42 36,44 36,47.5 Z" id="Shape"></path>
+                <path d="M57,47.5 C57,51 55,54 52,54 C49,54 47,51 47,47.5 C47,44 48,42 52,42 C56,42 57,44 57,47.5 Z" id="Shape"></path>
+                <path d="M20,57 L20,60" id="Shape"></path>
+                <path d="M42,57 L42,60" id="Shape"></path>
+                <path d="M11,17 L11,19" id="Shape"></path>
+                <path d="M11,21 L11,23" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
