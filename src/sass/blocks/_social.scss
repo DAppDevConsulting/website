@@ -7,7 +7,7 @@
 
   li{
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 8px;
   }
 
   &__icon{
@@ -28,5 +28,12 @@
       transform: scale(1.2);
     }
 
+  }
+
+  @include mq(360){
+    li{
+      display: inline-block;
+      margin: 0 10px;
+    }
   }
 }

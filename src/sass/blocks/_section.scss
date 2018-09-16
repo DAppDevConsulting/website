@@ -24,6 +24,13 @@
     padding-top: 0;
   }
 
+  &_about-bg{
+    background-image: url($img + 'about-bg.png');
+    background-repeat: no-repeat;
+    background-size: 962px auto;
+    background-position: 50% 90px;
+  }
+
   @include mq(1024){
     padding: 100px 0;
 

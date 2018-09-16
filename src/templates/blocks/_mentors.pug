@@ -4,7 +4,7 @@ mixin mentors(items, classes_mod)
 			+e.item
 				+b.mentor
 					+e.img
-						img(src=`../img/mentors/${item.photo}`)
+						img(src=`img/mentors/${item.photo}`)
 					+e.text
 						+e('p').name #{item.name}
 						+e('p').descr #{item.description}
