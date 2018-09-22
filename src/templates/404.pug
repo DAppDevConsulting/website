@@ -1,0 +1,15 @@
+extends layouts/_layout_landing
+block variables
+	- isFooterHiden = true;
+
+block content
+	.content
+		+b('section').hero(id='home')
+			.row
+				+e.content
+					+b.not-found
+						+e.title 404
+						+e.subtitle Not found
+
+
+

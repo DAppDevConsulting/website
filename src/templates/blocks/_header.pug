@@ -1,14 +1,15 @@
 //BEGIN header
-mixin m-header(classes)
+mixin m-header(classes, isBtnShown)
 	input.m-header__menustate(type="checkbox" id="menustate" style="display:none;")
 	+b('header').m-header.js-m-header(class=classes)
 		+e.container
 			+e('a')(href='#page-top').logo
 				include ../../img/m-logo.svg
 			+e('ul').nav
-				each item in hackaton.headerMenu
+				each item in headerMenu
 					+e('li'): a(href=`${item.href}`) #{item.name}
-			+e('a').btn.btn_outline(href='https://2event.com/events/1462060') Get ticket
+			if isBtnShown
+				+e('a').btn.btn_outline(href='https://2event.com/events/1462060') Get ticket
 			+e('label').menu-toggle.js-menu-toggle.desktop-hidden(for="menustate") Menu
 				+e('span').menu-ico: span
 

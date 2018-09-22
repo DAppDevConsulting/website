@@ -1,23 +1,24 @@
 //BEGIN footer
-mixin m-footer(classes)
-	+b('footer').m-footer(class=classes)
-		+e.container
-			+b('ul').social
-				+e('li'): +e('a').icon(href='#0')
-					+icon('email')
-				+e('li'): +e('a').icon(href='https://github.com/DAppDevConsulting/')
-					+icon('github')
-				+e('li'): +e('a').icon(href='https://medium.com/dappdev/')
-					+icon('medium')
-				+e('li'): +e('a').icon(href='https://www.youtube.com/channel/UCHFRCBO1LEI682h5f0_FxVA/' style="position: relative; top: 2px;")
-					+icon('youtube')
+mixin m-footer(classes, isHiden)
+	if !isHiden
+		+b('footer').m-footer(class=classes)
+			+e.container
+				+b('ul').social
+					+e('li'): +e('a').icon(href='#0')
+						+icon('email')
+					+e('li'): +e('a').icon(href='https://github.com/DAppDevConsulting/')
+						+icon('github')
+					+e('li'): +e('a').icon(href='https://medium.com/dappdev/')
+						+icon('medium')
+					+e('li'): +e('a').icon(href='https://www.youtube.com/channel/UCHFRCBO1LEI682h5f0_FxVA/' style="position: relative; top: 2px;")
+						+icon('youtube')
 
-				+e('li'): +e('a').icon(href='https://www.linkedin.com/company/dappdev/')
-					+icon('linkedin')
-				+e('li'): +e('a').icon(href='https://t.me/dappdev_consulting')
-					+icon('telegram')
-				
-				+e('li'): +e('a').icon(href='https://www.facebook.com/DAppDEV/')
-					+icon('facebook')
-				+e('li'): +e('a').icon(href='https://twitter.com/dapp_dev/')
-					+icon('twitter')
+					+e('li'): +e('a').icon(href='https://www.linkedin.com/company/dappdev/')
+						+icon('linkedin')
+					+e('li'): +e('a').icon(href='https://t.me/dappdev_consulting')
+						+icon('telegram')
+
+					+e('li'): +e('a').icon(href='https://www.facebook.com/DAppDEV/')
+						+icon('facebook')
+					+e('li'): +e('a').icon(href='https://twitter.com/dapp_dev/')
+						+icon('twitter')

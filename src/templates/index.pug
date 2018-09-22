@@ -1,63 +1,15 @@
 extends layouts/_layout_landing
+block variables
+
 block content
-	+page-nav(hackaton.sidebar)
 	.content
-		+b.canceled
-			+e('span').text Canceled
 		+b('section').hero(id='home')
 			.row
 				+e.content
-					+e('p').up-text SEP 15-16, 2018 / Kyiv
-					+e('h1').title DApp DEV Blockchain Workshops & Hackathon
-					+e('p').subtitle CODE CLEAN. SCALE FAST
+					+b.rich-text
+						ul
+							li: a(href="consulting") Consulting
+							li: a(href="hackaton") Hackaton
+							li: a(href="404") 404
 
-		+section('About', !1, !1, 'about')
-			+e.text.rich-text
-				p Join us on 15th & 16th September and be part of a vibrant DApp DEV Blockchain Workshops & Hackathon where developers, designers and professionals will get an opportunity to build products based on blockchain protocols.
-				p We are looking forward to turning data into knowledge, buzz into reality, technological advances in the blockchain industry into economic and social goods!
-			+numbers(hackaton.numbers)
 
-		+section('Mentors', !1, !1, 'mentors')
-			+mentors(hackaton.mentors)
-
-		+section('Agenda', !1, !1, 'agenda')
-			+program(hackaton.program)
-
-		+section('Tickets', !1, !1, 'tickets')
-			+tickets(hackaton.tickets)
-
-		+section('Partners', !1, !1, 'partners')
-			+partners(hackaton.partners, '_partners')
-
-		+section('Technology Partners', !1, '_techpartners', !1)
-			+partners(hackaton.techpartners, '_techpartners')
-
-		+section('Contributors', !1, '_contributors', !1)
-			+partners(hackaton.contributors, '_contributors')
-
-		+section('Venue', !1, !1, 'venue')
-			+b.contacts
-				+e.contacts
-					+e.address
-						p IZONE Creative Community:
-						p Naberezhno-Lugova St, 8, Kyiv, Ukraine
-					+e.organizer
-						p Organizer:
-						p DApp DEV
-						+e('a').email(href="mailto:hello@dappdev.org") hello@dappdev.org
-						p Tel.: +38 067-609-45-45
-				+e.map
-
-		+section('FAQ', !1, !1, 'faq')
-			+faq()
-
-		+section('What we did', !1, !1, 'did')
-			+b.full-video._past-events
-				iframe(src=`https://www.youtube.com/embed/${hackaton.did.video}`, frameborder='0', allow='autoplay; encrypted-media', allowfullscreen='')
-			+b.img-tiles
-				+e('h3').title #{hackaton.did.title}<br/>#{hackaton.did.subtitle}
-				+e.tiles
-					each img in hackaton.did.photos
-						+e.tiles-item
-							+e.img-wrap
-								+e('img').img(src=`img/past-events/${img}`)

@@ -35,6 +35,15 @@
     }
   }
 
+  a{
+    color: $main;
+    text-decoration: none;
+
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+
   li{
     position: relative;
     margin-bottom: 0.45em;
@@ -44,7 +53,7 @@
       content: '';
       width: 6px;
       height: 6px;
-      background-color: #FFD500;
+      background-color: $main;
       position: absolute;
       left: 0;
       top: .5em;

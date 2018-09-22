@@ -1,23 +1,23 @@
 {
+  "headerMenu": [
+    {
+      "href": "consulting",
+      "name": "Consulting"
+    },
+    {
+      "href": "#0",
+      "name": "Conference"
+    },
+    {
+      "href": "hackaton",
+      "name": "Hackaton"
+    },
+    {
+      "href": "#0",
+      "name": "Campus"
+    }
+  ],
   "hackaton": {
-    "headerMenu": [
-      {
-        "href": "#0",
-        "name": "Consulting"
-      },
-      {
-        "href": "#0",
-        "name": "Conference"
-      },
-      {
-        "href": "#0",
-        "name": "Hackaton"
-      },
-      {
-        "href": "#0",
-        "name": "Campus"
-      }
-    ],
     "sidebar": [
       {
         "href": "#home",
