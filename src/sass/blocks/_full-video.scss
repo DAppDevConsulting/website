@@ -15,7 +15,11 @@
     height: 100%;
   }
 
-  &_past-events{
+  &_past-events {
     margin-bottom: 80px;
+  }
+
+  * + & {
+    margin-top: 30px;
   }
 }

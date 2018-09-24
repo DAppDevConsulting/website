@@ -54,6 +54,10 @@ block content
 			+faq()
 
 		+section('What we did', !1, !1, 'did')
+			+e.text
+				+b.rich-text
+					p Check how it was last time
+						a(href="http://dappdev.org/conference/2018/") DappDev Conference 2018
 			+b.full-video._past-events
 				iframe(src=`https://www.youtube.com/embed/${conference.did.video}`, frameborder='0', allow='autoplay; encrypted-media', allowfullscreen='')
 			+b.img-tiles
