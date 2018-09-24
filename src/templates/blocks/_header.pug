@@ -1,5 +1,5 @@
 //BEGIN header
-mixin m-header(classes, isBtnShown)
+mixin m-header(classes, isBtnShown, activeLink)
 	input.m-header__menustate(type="checkbox" id="menustate" style="display:none;")
 	+b('header').m-header.js-m-header(class=classes)
 		+e.container
@@ -7,7 +7,8 @@ mixin m-header(classes, isBtnShown)
 				include ../../img/m-logo.svg
 			+e('ul').nav
 				each item in headerMenu
-					+e('li'): a(href=`${item.href}`) #{item.name}
+					- var itemMods = item.name === activeLink ? 'active' : '';
+					+e('li').item(class=itemMods): a(href=`${item.href}`) #{item.name}
 			if isBtnShown
 				+e('a').btn.btn_outline(href='https://2event.com/events/1462060') Get ticket
 			+e('label').menu-toggle.js-menu-toggle.desktop-hidden(for="menustate") Menu

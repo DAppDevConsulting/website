@@ -144,7 +144,7 @@
       }
     }
 
-    .chacked{
+    .active {
       a{
         cursor: default;
 
@@ -154,7 +154,6 @@
         }
       }
     }
-
   }
 
   @include mq_max(1023){
@@ -254,17 +253,6 @@
         a{
           font-size: 14px;
         }
-      }
-
-      .active{
-        background-color: $main;
-
-        a{
-          &::after{
-            display: none;
-          }
-        }
-
       }
 
       &-lang{

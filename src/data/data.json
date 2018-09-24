@@ -5,19 +5,19 @@
       "name": "Consulting"
     },
     {
-      "href": "#0",
+      "href": "conference",
       "name": "Conference"
     },
     {
-      "href": "hackaton",
+      "href": "/",
       "name": "Hackaton"
     },
     {
-      "href": "#0",
+      "href": "campus",
       "name": "Campus"
     }
   ],
-  "hackaton": {
+  "conference": {
     "sidebar": [
       {
         "href": "#home",

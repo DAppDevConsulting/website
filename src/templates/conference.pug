@@ -1,12 +1,11 @@
 extends layouts/_layout_landing
 block variables
-	- var isHeaderBtnShown = true;
+	- var isHeaderBtnShown = false;
+	- var currentPage = 'Conference';
 
 block content
-	+page-nav(hackaton.sidebar)
+	+page-nav(conference.sidebar)
 	.content
-		+b.canceled
-			+e('span').text Canceled
 		+b('section').hero(id='home')
 			.row
 				+e.content
@@ -18,25 +17,25 @@ block content
 			+e.text.rich-text
 				p Join us on 15th & 16th September and be part of a vibrant DApp DEV Blockchain Workshops & Hackathon where developers, designers and professionals will get an opportunity to build products based on blockchain protocols.
 				p We are looking forward to turning data into knowledge, buzz into reality, technological advances in the blockchain industry into economic and social goods!
-			+numbers(hackaton.numbers)
+			+numbers(conference.numbers)
 
 		+section('Mentors', !1, !1, 'mentors')
-			+mentors(hackaton.mentors)
+			+mentors(conference.mentors)
 
 		+section('Agenda', !1, !1, 'agenda')
-			+program(hackaton.program)
+			+program(conference.program)
 
-		+section('Tickets', !1, !1, 'tickets')
-			+tickets(hackaton.tickets)
+		//+section('Tickets', !1, !1, 'tickets')
+		//	+tickets(conference.tickets)
 
 		+section('Partners', !1, !1, 'partners')
-			+partners(hackaton.partners, '_partners')
+			+partners(conference.partners, '_partners')
 
 		+section('Technology Partners', !1, '_techpartners', !1)
-			+partners(hackaton.techpartners, '_techpartners')
+			+partners(conference.techpartners, '_techpartners')
 
 		+section('Contributors', !1, '_contributors', !1)
-			+partners(hackaton.contributors, '_contributors')
+			+partners(conference.contributors, '_contributors')
 
 		+section('Venue', !1, !1, 'venue')
 			+b.contacts
@@ -56,11 +55,11 @@ block content
 
 		+section('What we did', !1, !1, 'did')
 			+b.full-video._past-events
-				iframe(src=`https://www.youtube.com/embed/${hackaton.did.video}`, frameborder='0', allow='autoplay; encrypted-media', allowfullscreen='')
+				iframe(src=`https://www.youtube.com/embed/${conference.did.video}`, frameborder='0', allow='autoplay; encrypted-media', allowfullscreen='')
 			+b.img-tiles
-				+e('h3').title #{hackaton.did.title}<br/>#{hackaton.did.subtitle}
+				+e('h3').title #{conference.did.title}<br/>#{conference.did.subtitle}
 				+e.tiles
-					each img in hackaton.did.photos
+					each img in conference.did.photos
 						+e.tiles-item
 							+e.img-wrap
 								+e('img').img(src=`img/past-events/${img}`)

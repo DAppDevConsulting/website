@@ -1,15 +1,11 @@
 extends layouts/_layout_landing
 block variables
 	- var isFooterHiden = true;
+	- var currentPage = 'Campus';
 
 block content
 	.content
 		+b('section').hero(id='home')
 			.row
 				+e.content
-					+b.not-found
-						+e.title 404
-						+e.subtitle Not found
-
-
-
+					+e('h1').title Coming soon...

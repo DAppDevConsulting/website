@@ -1,15 +1,11 @@
 extends layouts/_layout_landing
 block variables
+	- var isFooterHiden = true;
+	- var currentPage = 'Hackaton';
 
 block content
 	.content
 		+b('section').hero(id='home')
 			.row
 				+e.content
-					+b.rich-text
-						ul
-							li: a(href="consulting") Consulting
-							li: a(href="hackaton") Hackaton
-							li: a(href="404") 404
-
-
+					+e('h1').title Coming soon...
