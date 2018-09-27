@@ -1,19 +1,19 @@
 {
   "headerMenu": [
     {
-      "href": "consulting",
+      "href": "/consulting",
       "name": "Consulting"
     },
     {
-      "href": "conference",
+      "href": "/conference",
       "name": "Conference"
     },
     {
-      "href": "hackaton",
-      "name": "Hackaton"
+      "href": "/hackathon",
+      "name": "Hackathon"
     },
     {
-      "href": "campus",
+      "href": "/campus",
       "name": "Campus"
     }
   ],
