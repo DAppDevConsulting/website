@@ -114,25 +114,11 @@
     ],
     "mentors": [
       {
-        "name": "Dean Eigenmann",
-        "photo": "eigenmann.jpg",
-        "description": "Dispute Resolution Researcher at Ethereum Name Service",
-        "github": "https://github.com/decanus",
-        "linkedin": "https://www.linkedin.com/in/deaneigenmann/"
-      },
-      {
         "name": "Gonçalo Sá",
         "photo": "goncalo.jpg",
         "description": "Security and Scalability at ConsenSys Diligence",
         "github": "https://github.com/GNSPS",
         "linkedin": "https://www.linkedin.com/in/gnsps/"
-      },
-      {
-        "name": "Roman Shabanov",
-        "photo": "shabanov.jpg",
-        "description": "Lead Developer at Ambrosus",
-        "github": "https://github.com/RomanShabanov",
-        "linkedin": "https://www.linkedin.com/in/estonian-full-stack-dev/"
       },
       {
         "name": "Jérôme de Tychey",
@@ -147,28 +133,7 @@
         "description": "Strategy & Communication at DApp DEV",
         "github": "",
         "linkedin": "https://www.linkedin.com/in/anna-makota-a3447929/"
-      },
-      {
-        "name": "Sergiej Rewiakin",
-        "photo": "sergiej.jpg",
-        "description": "VP of Engineering at Neufund",
-        "github": "",
-        "linkedin": "https://www.linkedin.com/in/michael-wuehler-87b148/"
-      },
-      {
-        "name": "Leila Alieva",
-        "photo": "alieva.jpg",
-        "description": "CEO at Action Learning",
-        "github": "",
-        "linkedin": ""
-      },
-      {
-        "name": "Roman Volosovskyi",
-        "photo": "volosovskyi.jpg",
-        "description": "Team Lead at Status",
-        "github": "https://github.com/rasom/",
-        "linkedin": "https://www.linkedin.com/in/roman-volosovskyi-87565682/"
-      },
+      },      
       {
         "name": "Dmytrii Kulbaka",
         "photo": "dima.jpg",
@@ -177,51 +142,9 @@
         "linkedin": "https://www.linkedin.com/in/dkulbaka/"
       },
       {
-        "name": "Ivan Daniluk",
-        "photo": "daniluk.jpg",
-        "description": "Core Go Developer at Status",
-        "github": "https://github.com/divan/",
-        "linkedin": "https://www.linkedin.com/in/divan/"
-      },
-      {
-        "name": "Bartek Kiepuszewski",
-        "photo": "bartek.jpg",
-        "description": "Blockchain Architect at MakerDAO",
-        "github": "",
-        "linkedin": "https://www.linkedin.com/in/bartek-kiepuszewski-b3a299/"
-      },
-      {
-        "name": "Ivo Georgiev",
-        "photo": "georgiev.jpg",
-        "description": "Co-founder at AdEx network",
-        "github": "https://github.com/Ivshti",
-        "linkedin": "https://www.linkedin.com/in/ivo-georgiev-8298b678/"
-      },
-      {
-        "name": "Dmitry Selin",
-        "photo": "selin.jpg",
-        "description": "CTO at AURA",
-        "github": "",
-        "linkedin": "https://www.linkedin.com/in/dmitry-selin/"
-      },
-      {
-        "name": "coming soon",
+        "name": "more coming soon",
         "photo": "ethereum.jpg",
-        "description": "Ethereum Community Fund",
-        "github": "",
-        "linkedin": ""
-      },
-      {
-        "name": "coming soon",
-        "photo": "ethereum.jpg",
-        "description": "COSMOS Network",
-        "github": "",
-        "linkedin": ""
-      },
-      {
-        "name": "coming soon",
-        "photo": "ethereum.jpg",
-        "description": "Aragon",
+        "description": "",
         "github": "",
         "linkedin": ""
       },
@@ -236,12 +159,12 @@
     "tickets": [
       {
         "type": "Early bird",
-        "days": "04",
-        "minutes": "13",
-        "seconds": "55",
-        "price": "$45",
+        "days": "",
+        "minutes": "",
+        "seconds": "",
+        "price": "",
         "text": "For crypto please contact us",
-        "href": "https://2event.com/events/1462060"
+        "href": "#0"
       }
     ],
     "partners": [
