@@ -498,7 +498,7 @@
       },
       {
         "icon": "smart-contracts",
-        "title": "Smart contracts audit & security"
+        "title": "Audit & security"
       },
       {
         "icon": "ico-assistance",
@@ -510,7 +510,7 @@
       },
       {
         "icon": "blockchain-adoption",
-        "title": "Blockchain adoption"
+        "title": "Adoption"
       }
     ],
     "ecosystem": [
@@ -532,7 +532,7 @@
       },
       {
         "icon": "community-development",
-        "title": "Community development"
+        "title": "Community"
       }
     ]
   }
