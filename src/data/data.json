@@ -246,10 +246,6 @@
     ],
     "partners": [
       {
-        "href": "https://ambrosus.com/",
-        "img": "ambrous.png"
-      },
-      {
         "href": "https://ecf.network/",
         "img": "ecf.new.png"
       }
@@ -262,10 +258,6 @@
       {
         "href": "https://www.ethereum.org/",
         "img": "ethereumfondation.png"
-      },
-      {
-        "href": "https://web3.foundation/",
-        "img": "web3.foundation.png"
       }
     ],
     "contributors": [
@@ -327,14 +319,6 @@
       },
       {
         "href": "#0",
-        "img": "parsec.png"
-      },
-      {
-        "href": "#0",
-        "img": "ouroboros.png"
-      },
-      {
-        "href": "#0",
         "img": "chrono-logic.png"
       },
       {
@@ -355,10 +339,6 @@
       },
       {
         "href": "#0",
-        "img": "foam.png"
-      },
-      {
-        "href": "#0",
         "img": "neufund.png"
       },
       {
@@ -372,14 +352,6 @@
       {
         "href": "#0",
         "img": "quicknode.png"
-      },
-      {
-        "href": "#0",
-        "img": "token-foundry.png"
-      },
-      {
-        "href": "#0",
-        "img": "trustology.png"
       },
       {
         "href": "#0",
