@@ -252,12 +252,12 @@
     ],
     "techpartners": [
       {
-        "href": "https://z.cash.foundation/",
-        "img": "zcash.png"
-      },
-      {
         "href": "https://www.ethereum.org/",
         "img": "ethereumfondation.png"
+      },
+      {
+        "href": "https://z.cash.foundation/",
+        "img": "zcash.png"
       }
     ],
     "contributors": [
@@ -352,6 +352,10 @@
       {
         "href": "#0",
         "img": "zeppelin.png"
+      },
+      {
+        "href": "#0",
+        "img": "ambrous.png"
       }
     ],
     "did": {
