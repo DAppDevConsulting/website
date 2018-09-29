@@ -114,13 +114,6 @@
     ],
     "mentors": [
       {
-        "name": "Gonçalo Sá",
-        "photo": "goncalo.jpg",
-        "description": "Security and Scalability at ConsenSys Diligence",
-        "github": "https://github.com/GNSPS",
-        "linkedin": "https://www.linkedin.com/in/gnsps/"
-      },
-      {
         "name": "Jérôme de Tychey",
         "photo": "jerome.jpg",
         "description": "Blockchain Tech Lead at ConsenSys",
