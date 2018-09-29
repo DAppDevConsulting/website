@@ -29,7 +29,7 @@
       },
       {
         "href": "#mentors",
-        "name": "Mentors"
+        "name": "Speakers"
       },
       {
         "href": "#agenda",
@@ -59,19 +59,19 @@
     "numbers": [
       {
         "number": "3",
-        "description": "ETH award for the winning team"
+        "description": "partners"
       },
       {
-        "number": "10+",
-        "description": "workshops about the blockchain technology"
+        "number": "8+",
+        "description": "hours"
       },
       {
-        "number": "15+",
-        "description": "experts in decentralized technologies"
+        "number": "20+",
+        "description": "speakers"
       },
       {
-        "number": "30+",
-        "description": "hours of coding, networking & hiring"
+        "number": "200+",
+        "description": "participants"
       }
     ],
     "program": [
