@@ -347,10 +347,6 @@
       },
       {
         "href": "#0",
-        "img": "pegasys.png"
-      },
-      {
-        "href": "#0",
         "img": "quicknode.png"
       },
       {
@@ -359,7 +355,7 @@
       }
     ],
     "did": {
-      "title": "DApp DEV Ethereum Conference 2018",
+      "title": "",
       "subtitle": "by developers for developers",
       "video": "HbQDMTrGcmA",
       "photos": [
