@@ -62,6 +62,35 @@ $(document).ready(function () {
   });
   // END Header
 
+  // BEGIN Photo randomizer
+  (($) => {
+    const generateRandomNumbersSet = (min, max, size) => {
+      const set = [];
+      while(set.length < size) {
+        const number = Math.floor(Math.random() * max) + min;
+
+        if (set.indexOf(number) > -1) {
+          continue;
+        }
+
+        set.push(number);
+      }
+
+      return set;
+    };
+
+    const images = $('#did img.img-tiles__img');
+    const photosAmount = 61; // Hardcoded value
+    const randomPhotos = generateRandomNumbersSet(1, photosAmount, images.length);
+
+    images.each((index, element) => {
+      // Photo path is hard-coded :(
+      $(element).attr('src', `archive/conference-2018/${randomPhotos[index]}.jpg`);
+    });
+
+  })(jQuery);
+  // END Photo randomizer
+
 
   // BEGIN Header scroll
   (function($) {
