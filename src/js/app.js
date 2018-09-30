@@ -81,7 +81,7 @@ $(document).ready(function () {
 
     const images = $('#did img.img-tiles__img');
     const photosAmount = 61; // Hardcoded value
-    const randomPhotos = generateRandomNumbersSet(1, photosAmount, images.length);
+    const randomPhotos = generateRandomNumbersSet(0, photosAmount - 1, images.length);
 
     images.each((index, element) => {
       // Photo path is hard-coded :(
