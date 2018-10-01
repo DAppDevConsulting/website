@@ -1,3 +1,4 @@
+//-
 mixin faq()
 	+b.accordion#accordion-faq(aria-multiselectable='true')
 		+e.item
@@ -7,7 +8,7 @@ mixin faq()
 			+e.content.collapse#collapse-faq-1
 				+e.text.rich-text
 					p It is a 2-day event for learning, hacking, hiring & networking with fellow blockchain enthusiasts.
-//-
+
 		+e.item
 			+e.heading.collapsed(data-toggle='collapse', href='#collapse-faq-2')
 				+e('h3').title Who can attend the DApp DEV Blockchain Workshops & Hackathon?
