@@ -11,10 +11,6 @@
     {
       "href": "/hackathon",
       "name": "Hackathon"
-    },
-    {
-      "href": "/campus",
-      "name": "Campus"
     }
   ],
   "conference": {
@@ -70,7 +66,7 @@
         "description": "speakers"
       },
       {
-        "number": "200+",
+        "number": "250+",
         "description": "participants"
       }
     ],
@@ -114,25 +110,11 @@
     ],
     "mentors": [
       {
-        "name": "Jérôme de Tychey",
-        "photo": "jerome.jpg",
-        "description": "Blockchain Tech Lead at ConsenSys",
-        "github": "https://github.com/jdetychey",
-        "linkedin": "https://www.linkedin.com/in/jerome-de-tychey/"
-      },
-      {
-        "name": "Anna Makota",
-        "photo": "makota.jpg",
-        "description": "Strategy & Communication at DApp DEV",
+        "name": "more coming soon",
+        "photo": "ethereum.jpg",
+        "description": "",
         "github": "",
-        "linkedin": "https://www.linkedin.com/in/anna-makota-a3447929/"
-      },      
-      {
-        "name": "Dmytrii Kulbaka",
-        "photo": "dima.jpg",
-        "description": "Software Engineer at DApp DEV",
-        "github": "https://github.com/SomethingWrong/",
-        "linkedin": "https://www.linkedin.com/in/dkulbaka/"
+        "linkedin": ""
       },
       {
         "name": "more coming soon",
@@ -142,11 +124,25 @@
         "linkedin": ""
       },
       {
-        "name": "Pavlo Makarov",
-        "photo": "pavlo.jpg",
-        "description": "Founder at DApp DEV",
-        "github": "https://github.com/zouldapp",
-        "linkedin": "https://www.linkedin.com/in/pavlo-makarov-5b356126/"
+        "name": "more coming soon",
+        "photo": "ethereum.jpg",
+        "description": "",
+        "github": "",
+        "linkedin": ""
+      },
+      {
+        "name": "more coming soon",
+        "photo": "ethereum.jpg",
+        "description": "",
+        "github": "",
+        "linkedin": ""
+      },
+      {
+        "name": "more coming soon",
+        "photo": "ethereum.jpg",
+        "description": "",
+        "github": "",
+        "linkedin": ""
       }
     ],
     "tickets": [
