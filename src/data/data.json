@@ -187,11 +187,11 @@
       },
       {
         "href": "#0",
-        "img": "gnosis.png"
+        "img": "ambrous.png"
       },
       {
         "href": "#0",
-        "img": "infura.png"
+        "img": "gnosis.png"
       },
       {
         "href": "#0",
@@ -215,27 +215,11 @@
       },
       {
         "href": "#0",
-        "img": "cosmos.network.png"
-      },
-            {
-        "href": "#0",
-        "img": "changelly.png"
-      },
-            {
-        "href": "#0",
         "img": "izone.png"
       },
       {
         "href": "#0",
-        "img": "uport.png"
-      },
-      {
-        "href": "#0",
         "img": "keykey.png"
-      },
-      {
-        "href": "#0",
-        "img": "chrono-logic.png"
       },
       {
         "href": "#0",
@@ -255,23 +239,11 @@
       },
       {
         "href": "#0",
-        "img": "neufund.png"
-      },
-      {
-        "href": "#0",
         "img": "omisego.png"
       },
       {
         "href": "#0",
-        "img": "quicknode.png"
-      },
-      {
-        "href": "#0",
         "img": "zeppelin.png"
-      },
-      {
-        "href": "#0",
-        "img": "ambrous.png"
       }
     ],
     "did": {
