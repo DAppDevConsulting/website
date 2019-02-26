@@ -28,11 +28,13 @@ block content
 		//+section('Tickets', !1, !1, 'tickets')
 		//	+tickets(conference.tickets)
 
-		+section('Partners', !1, !1, 'partners')
-			+partners(conference.partners, '_partners')
+		//-
+			+section('Partners', !1, !1, 'partners')
+				+partners(conference.partners, '_partners')
 
-		+section('Technology Partners', !1, '_techpartners', !1)
-			+partners(conference.techpartners, '_techpartners')
+		//-
+			+section('Technology Partners', !1, '_techpartners', !1)
+				+partners(conference.techpartners, '_techpartners')
 
 		//-
 			+section('Contributors', !1, '_contributors', !1)
@@ -51,8 +53,9 @@ block content
 						p Tel.: +38 067-609-45-45
 				+e.map
 
-		+section('FAQ', !1, !1, 'faq')
-			+faq()
+		//-
+			+section('FAQ', !1, !1, 'faq')
+				+faq()
 
 		+section('What we did', !1, !1, 'did')
 			+e.text
