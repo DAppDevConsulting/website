@@ -28,20 +28,12 @@
         "name": "Agenda"
       },
       {
-        "href": "#tickets",
-        "name": "Tickets"
-      },
-      {
         "href": "#partners",
         "name": "Partners"
       },
       {
         "href": "#venue",
         "name": "Venue"
-      },
-      {
-        "href": "#faq",
-        "name": "FAQ"
       },
       {
         "href": "#did",
@@ -154,10 +146,6 @@
     ],
     "partners": [
       {
-        "href": "https://ecf.network/",
-        "img": "ecf.new.png"
-      },
-      {
         "href": "https://dappdev.org/",
         "img": "dappdev.png"
       }
@@ -174,60 +162,8 @@
     ],
     "contributors": [
       {
-        "href": "https://aragon.org/",
-        "img": "aragon.png"
-      },
-      {
-        "href": "#0",
-        "img": "makerdao.png"
-      },
-      {
-        "href": "#0",
-        "img": "ambrous.png"
-      },
-      {
-        "href": "#0",
-        "img": "gnosis.png"
-      },
-      {
-        "href": "#0",
-        "img": "name-service.png"
-      },
-      {
-        "href": "#0",
-        "img": "ocean.png"
-      },
-      {
-        "href": "#0",
-        "img": "status.png"
-      },
-      {
-        "href": "#0",
-        "img": "maiden.png"
-      },
-      {
-        "href": "#0",
-        "img": "full-node.png"
-      },
-      {
         "href": "#0",
         "img": "izone.png"
-      },
-      {
-        "href": "#0",
-        "img": "keykey.png"
-      },
-      {
-        "href": "#0",
-        "img": "berkeley.png"
-      },
-      {
-        "href": "#0",
-        "img": "cardano.png"
-      },
-      {
-        "href": "#0",
-        "img": "zeppelin.png"
       }
     ],
     "did": {
