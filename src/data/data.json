@@ -7,10 +7,6 @@
     {
       "href": "/conference",
       "name": "Conference"
-    },
-    {
-      "href": "/hackathon",
-      "name": "Hackathon"
     }
   ],
   "conference": {
