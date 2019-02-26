@@ -254,6 +254,10 @@
         "name": "About"
       },
       {
+        "href": "#kudamm",
+        "name": "Kudamm"
+      },
+      {
         "href": "#easy-tcr",
         "name": "EasyTCR"
       },
@@ -277,7 +281,7 @@
       },
       {
         "icon": "ico-assistance",
-        "title": "ICO assistance"
+        "title": "Cryptoeconomics"
       },
       {
         "icon": "talent-acquisition",
