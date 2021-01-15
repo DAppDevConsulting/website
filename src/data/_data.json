@@ -1,6 +1,13 @@
 {
   "headerMenu": [
-
+    {
+      "href": "/consulting",
+      "name": "Consulting"
+    },
+    {
+      "href": "/conference",
+      "name": "Conference"
+    }
   ],
   "conference": {
     "sidebar": [
@@ -177,6 +184,14 @@
       {
         "href": "#about",
         "name": "About"
+      },
+      {
+        "href": "#kudamm",
+        "name": "Kudamm"
+      },
+      {
+        "href": "#easy-tcr",
+        "name": "EasyTCR"
       },
       {
         "href": "#business",

@@ -25,15 +25,11 @@ function renderHtml(onlyChanged) {
         .pipe(gulp.dest(config.dest.html));
 }
 
-gulp.task('pug', function() {
-    return renderHtml();
-});
+gulp.task('pug', () => renderHtml());
 
-gulp.task('pug:changed', function() {
-    return renderHtml(true);
-});
+gulp.task('pug:changed', () => renderHtml(true));
 
-gulp.task('pug:watch', function() {
-    gulp.watch([config.src.templates + '/**/_*.pug', config.src.data + '/**/*.json'], ['pug']);
-    gulp.watch([config.src.templates + '/**/[^_]*.pug'], ['pug:changed']);
+gulp.task('pug:watch', (done) => {
+    gulp.watch([config.src.templates + '/**/_*.pug', config.src.data + '/**/*.json'], () => renderHtml());
+    gulp.watch([config.src.templates + '/**/[^_]*.pug'], () => renderHtml(true));
 });

@@ -28,12 +28,12 @@ gulp.task('copy:img', function() {
         .pipe(gulp.dest(config.dest.img));
 });
 
-gulp.task('copy', [
+gulp.task('copy', gulp.series(
     'copy:img',
     'copy:rootfiles',
     'copy:lib',
     'copy:fonts'
-]);
+));
 gulp.task('copy:watch', function() {
-    gulp.watch(config.src.img+'/**/*', ['copy']);
+    gulp.watch(config.src.img+'/**/*', gulp.series('copy'));
 });

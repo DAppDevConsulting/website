@@ -1,10 +1,32 @@
 extends layouts/_layout_landing
 block variables
-	- var isFooterHiden = true;
+	- var currentPage = 'Consulting';
 
 block content
+	+page-nav(home.sidebar)
 	.content
 		+b('section').hero(id='home')
 			.row
-				+e.content
-					+e('h1').title Coming soon...
+				+e.content: +e.logo: include ../img/hero-logo.svg
+
+		+section('About', !1, '_about-bg', 'about')
+			+e.text.rich-text
+				p DApp DEV is leveraging cutting-edge research on Ethereum 2.0 and consulting on Decentralized Finance (DiFi) services. With Ethereum-based tokens, you can digitize traditional securities and create new financial instruments. It entails derivatives, stablecoins, lending, margin trading and crypto asset management on Ethereum. We are located in Berlin, Germany.
+				p Ethereum is the largest programmable blockchain in the world, leading in business adoption, developer community, and DeFi activity. On this trusted, open source foundation, we are building the digital economy of tomorrow.
+				div.about__person
+					img(src="/img/pavlo.png")
+					div.about__name Pavlo Makarov
+		+section('Business', !1, !1, 'business')
+			+e.text.rich-text
+				p Blockchain technology is ushering in a new era of operational efficiency for capital markets and suite powering commerce and finance, built to optimize business processes and digitize financial instruments. You can create digital representations of conventional securities using Ethereum’s built-in token functionality. Blockchain-based securitization allows you to customize financial instruments and create wholly new digital assets.
+				p Programmable assets and securities mean new securities can be issued in minutes, with rights and obligations encoded, so you can increase the velocity of funding events. Costs and simplified fund servicing, accounting, allocation, and administration will decrease overhead and resulting fees across capital markets. Transparent clearing and settlement reduce default and systemic and ensures both ends of a counterparty receive their securities and purchase price in T+0 days.
+
+			+e.container-pt
+				+advantages(home.business)
+
+		+section('Ecosystem', !1, !1, 'ecosystem')
+			+e.text.rich-text
+				p We grow Ethereum community in Eastern Europe by spreading the knowledge and organizing events to form and grow the community and the ecosystem in general. We provide a global and cross-disciplinary platform for collaboration, networking and market adoption.
+			+e.container-pt
+				+advantages(home.ecosystem)
+

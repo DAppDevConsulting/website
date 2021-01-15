@@ -2,26 +2,14 @@ var gulp        = require('gulp');
 var runSequence = require('run-sequence');
 var config      = require('../config');
 
-function build(cb) {
-    runSequence(
-        'clean',
-        'sprite:svg',
-        'sass',
-        'pug',
-        'js',
-        'copy',
-        cb
-    );
-}
-
-gulp.task('build', function(cb) {
+gulp.task('build', gulp.series(cb => {
     config.setEnv('production');
     config.logEnv();
-    build(cb);
-});
+    cb();
+}, gulp.series('clean', 'sprite:svg', 'sass', 'pug', 'js', 'copy')));
 
-gulp.task('build:dev', function(cb) {
+gulp.task('build:dev', gulp.series(cb => {
     config.setEnv('development');
     config.logEnv();
-    build(cb);
-});
+    cb();
+}, gulp.series('clean', 'sprite:svg', 'sass', 'pug', 'js', 'copy')));
